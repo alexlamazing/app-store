@@ -1,0 +1,60 @@
+@import "../../styles/variables.scss";
+
+.search-bar {
+    align-items: center;
+    background: $lightGrey;
+    display: flex;
+    justify-content: center;
+    padding: 10px 12px;
+
+    .search-box {
+        align-items: center;
+        background: $grey;
+        border-radius: 4px;
+        display: flex;
+        font-size: 1rem;
+        height: $searchBoxHeight;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+
+        input {
+            background: transparent;
+            border: none;
+            height: 100%;
+            font-size: inherit;
+            padding: 0 40px 0 8px;
+            width: 100%;
+        }
+
+        .placeholder {
+            align-items: center;
+            color: $textDarkGrey;
+            display: flex;
+            font-size: inherit;
+            height: 100%;
+            justify-content: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            svg {
+                path {
+                    fill: $textDarkGrey;
+                }
+            }
+        }
+
+        .clear-keyword {
+            align-items: center;
+            display: flex;
+            position: absolute;
+            top: 50%;
+            right: 8px;
+            transform: translateY(-50%);
+        }
+    }
+    
+}
