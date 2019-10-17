@@ -2,4 +2,57 @@
 
 .app-list {
     display: flex;
+
+    .list-item {
+        align-items: center;
+        display: flex;
+        margin: 8px auto;
+
+        .rank {
+            align-items: center;
+            display: flex;
+            font-size: 1.5rem;
+            padding: 0 8px;
+        }
+
+        .app {
+            display: flex;
+            align-items: center;
+            
+            .icon {
+                border-radius: 10px;
+                height: 80px;
+                width: 80px;
+            }
+
+            .detail {
+                display: flex;
+                flex-direction: column;
+                padding: 0 8px;
+
+                .category {
+                    color: $textDarkGrey;
+                    font-size: 0.9rem;
+                    margin-top: 8px;
+                }
+
+                .rating {
+                    color: $textDarkGrey;
+                    margin-top: 8px;
+                    .count {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+            
+        }
+
+        &:nth-child(even) {
+            .app {
+                .icon {
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
 }

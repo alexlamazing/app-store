@@ -5,6 +5,7 @@ import thunk from "redux-thunk";
 
 // import reducers
 import searchReducer from "../components/SearchBar/reducer";
+import topFreeReducer from "../components/AppList/reducer";
 
 const logger = createLogger();
 
@@ -18,5 +19,6 @@ const getMiddleware = () => {
 };
 
 export const store = createStore(combineReducers({
-    keyword: searchReducer
+    keyword: searchReducer,
+    topFree: topFreeReducer
 }), composeWithDevTools(getMiddleware()));
