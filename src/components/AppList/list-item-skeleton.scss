@@ -1,0 +1,36 @@
+.list-item {
+    .rank {
+        .skeleton {
+            width: 20px;
+        }
+    }
+    .app {
+        .icon {
+            .skeleton {
+                width: 80px;
+                height: 80px;
+            }
+        }
+        .detail {
+            .name {
+                .skeleton {
+                    width: 100%;
+                }
+            }
+            .rating {
+                .skeleton {
+                    width: 40%;
+                }
+            }
+        }
+    }
+    &:nth-child(even) {
+        .app {
+            .icon {
+                .skeleton {
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@mixin textOverflow($lines-to-show, $line-height, $font-size: null, $isFixedHeight: false) {
+    @if $lines-to-show==1 {
+        display: inline-block;
+        white-space: nowrap;
+        width: 100%;
+    }
+    @else {
+        display: block;
+        display: -webkit-box;
+        -webkit-line-clamp: $lines-to-show;
+        -webkit-box-orient: vertical;
+        white-space: pre-wrap;
+    }
+    @if $isFixedHeight {
+        height: $line-height * $lines-to-show;
+    }
+    max-height: $line-height * $lines-to-show;
+    font-size: $font-size;
+    line-height: $line-height;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

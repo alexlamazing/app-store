@@ -3,9 +3,20 @@
 .search-bar {
     align-items: center;
     background: $lightGrey;
+    border-bottom: 1px solid $grey;
     display: flex;
     justify-content: center;
-    padding: 10px 12px;
+    padding: 10px 0;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    .content {
+        width: 90%;
+        max-width: $pageMaxWidth;
+        margin: 0 auto;
+    }
 
     .search-box {
         align-items: center;

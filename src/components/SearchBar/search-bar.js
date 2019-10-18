@@ -23,30 +23,49 @@ const mapDispatchToProps = dispatch => ({
 
 function SearchBar(props) {
     const { clearkeyword, keyword, updateKeyword } = props;
+
+    let textInput = React.createRef();
+
     const handleChange = event => {
         updateKeyword(event.target.value);
     };
     const handleClearKeyword = event => {
         clearkeyword();
+        textInput.current.focus();
     };
+    const handleClickPlaceholder = event => {
+        textInput.current.focus();
+    }
+
+    React.useEffect(() => {
+        textInput.current.focus();
+    }, []);
+
     return (
         <div className="search-bar">
-            <div className="search-box">
-                <input
-                    type="text"
-                    value={keyword}
-                    onChange={handleChange}
-                />
-                {!keyword && <PlaceHolder />}
-                {keyword && <ClearKeyword onClick={handleClearKeyword} />}
+            <div className="content">
+                <div className="search-box">
+                    <input
+                        type="text"
+                        value={keyword}
+                        onChange={handleChange}
+                        ref={textInput}
+                    />
+                    {!keyword && <PlaceHolder onClick={handleClickPlaceholder} />}
+                    {keyword && <ClearKeyword onClick={handleClearKeyword} />}
+                </div>
             </div>
         </div>
     );
 }
 
-const PlaceHolder = () => {
+const PlaceHolder = props => {
+    const { onClick } = props;
+    const handleOnClick = event => {
+        onClick(event);
+    }
     return (
-        <span className="placeholder">
+        <span className="placeholder" onClick={handleOnClick}>
             <SearchIcon />
             搜尋
         </span>
