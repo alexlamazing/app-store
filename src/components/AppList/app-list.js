@@ -7,16 +7,19 @@ import ListItem from "./list-item";
 import ListItemSkeleton from "./list-item-skeleton";
 
 // actions
-import { fetchFreeApp } from "./actions";
+import { fetchFreeApp, filterFreeApp } from "./actions";
 
 // styles
 import "./app-list.scss";
 
 function AppList(props) {
-    const { apps, isFetching, fetchFreeApp } = props;
+    const { apps, appsFiltered, isFetching, keyword, fetchFreeApp, filterFreeApp } = props;
     React.useEffect(() => {
         fetchFreeApp();
-    }, [fetchFreeApp]);
+    }, []);
+    React.useEffect(() => {
+        filterFreeApp(keyword);
+    }, [keyword]);
     return (
         <div className="app-list">
             <div className="content">
@@ -37,7 +40,11 @@ function AppList(props) {
                     )
                 }
                 <ul>
-                    {apps && apps.map((app, index) => <ListItem key={index} index={index + 1} app={app} />)}
+                    {
+                        keyword.length === 0
+                        ? apps && apps.map((app, index) => <ListItem key={index} index={index + 1} app={app} />)
+                        : appsFiltered && appsFiltered.map((app, index) => <ListItem key={index} index={index + 1} app={app} />)
+                    }
                 </ul>
             </div>
         </div>
@@ -46,13 +53,19 @@ function AppList(props) {
 
 AppList.propTypes = {
     apps: PropTypes.array,
+    appsFiltered: PropTypes.array,
     isFetching: PropTypes.bool,
-    fetchFreeApp: PropTypes.func
+    fetchFreeApp: PropTypes.func,
+    keyword: PropTypes.string
 }
 
 const mapStateToProps = state => {
-    const { apps, isFetching } = state.topFree;
-    return { apps, isFetching }
+    const { keyword } = state;
+    const { apps, appsFiltered, isFetching } = state.topFree;
+    return { apps, appsFiltered, isFetching, keyword }
 }
 
-export default connect(mapStateToProps, { fetchFreeApp })(AppList);
+export default connect(mapStateToProps, {
+    fetchFreeApp,
+    filterFreeApp
+})(AppList);

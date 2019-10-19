@@ -59,6 +59,9 @@
                 line-height: 1rem;
                 margin-top: 4px;
             }
+            &:last-child {
+                margin-right: 0;
+            }
         }
     }
 }

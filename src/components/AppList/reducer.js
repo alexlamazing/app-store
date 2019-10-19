@@ -2,12 +2,15 @@ import { combineReducers } from "redux";
 
 // types
 import {
+    APP_LISTING_FILTER_APP,
     FETCH_APP_LISTING_START,
     FETCH_APP_LISTING_SUCCESS,
     FETCH_APP_LISTING_FAILURE,
     SET_APP_LISTING_LOADED_PAGES,
     SET_APP_LISTING_PAGE,
-    UPDATE_APP_LISTING
+    UPDATE_APP_LISTING,
+    UPDATE_APP_LISTING_FILTERED,
+    APP_LISTING_ADD_DETAILS
 } from "./action-types";
 
 function apps(state = [], action) {
@@ -56,8 +59,24 @@ function loadedPages(state = [], action) {
     }
 }
 
+function appsFiltered(state = [], action) {
+    switch (action.type) {
+        case APP_LISTING_FILTER_APP:
+            return action.value;
+        case UPDATE_APP_LISTING_FILTERED:
+            return state.map(app =>
+                app.id === action.value.id
+                    ? { ...app, ...action.value }
+                    : app
+            );
+        default:
+            return state;
+    }
+}
+
 export default combineReducers({
     apps,
+    appsFiltered,
     isFetching,
     page,
     loadedPages

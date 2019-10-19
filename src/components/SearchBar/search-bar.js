@@ -16,10 +16,12 @@ const mapStateToProps = state => ({
     keyword: state.keyword
 });
 
-const mapDispatchToProps = dispatch => ({
-    updateKeyword: keyword => dispatch(setKeyword(keyword)),
-    clearkeyword: () => dispatch(clearKeyword())
-});
+const mapDispatchToProps = dispatch => {
+    return {
+        updateKeyword: keyword => dispatch(setKeyword(keyword)),
+        clearkeyword: () => dispatch(clearKeyword())
+    }
+};
 
 function SearchBar(props) {
     const { clearkeyword, keyword, updateKeyword } = props;
@@ -29,6 +31,11 @@ function SearchBar(props) {
     const handleChange = event => {
         updateKeyword(event.target.value);
     };
+    const handleKeyDown = event => {
+        if (event.key === "Enter") {
+            textInput.current.blur();
+        }
+    }
     const handleClearKeyword = event => {
         clearkeyword();
         textInput.current.focus();
@@ -41,6 +48,10 @@ function SearchBar(props) {
         textInput.current.focus();
     }, []);
 
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [keyword]);
+
     return (
         <div className="search-bar">
             <div className="content">
@@ -49,6 +60,7 @@ function SearchBar(props) {
                         type="text"
                         value={keyword}
                         onChange={handleChange}
+                        onKeyDown={handleKeyDown}
                         ref={textInput}
                     />
                     {!keyword && <PlaceHolder onClick={handleClickPlaceholder} />}
