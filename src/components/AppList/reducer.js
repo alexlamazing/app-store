@@ -50,15 +50,6 @@ function page(state = 1, action) {
     }
 }
 
-function loadedPages(state = [], action) {
-    switch (action.type) {
-        case SET_APP_LISTING_LOADED_PAGES:
-            return action.value;
-        default:
-            return state;
-    }
-}
-
 function appsFiltered(state = [], action) {
     switch (action.type) {
         case APP_LISTING_FILTER_APP:
@@ -83,11 +74,18 @@ function error(state = "", action) {
     }
 }
 
+function isLoadingMore(state = false, action) {
+    switch (action.type) {
+        default:
+            return state;
+    }
+}
+
 export default combineReducers({
     apps,
     appsFiltered,
+    error,
     isFetching,
-    page,
-    loadedPages,
-    error
+    isLoadingMore,
+    page
 });

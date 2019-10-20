@@ -1,0 +1,325 @@
+{
+    "feed": {
+        "title": "Top Grossing iPhone Apps",
+        "id": "https://rss.itunes.apple.com/api/v1/hk/ios-apps/top-grossing/all/10/explicit.json",
+        "author": {
+            "name": "iTunes Store",
+            "uri": "http://wwww.apple.com/hk/itunes/"
+        },
+        "links": [
+            {
+                "self": "https://rss.itunes.apple.com/api/v1/hk/ios-apps/top-grossing/all/10/explicit.json"
+            },
+            {
+                "alternate": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?genreId=36\u0026popId=38"
+            }
+        ],
+        "copyright": "Copyright © 2018 Apple Inc. All rights reserved.",
+        "country": "hk",
+        "icon": "http://itunes.apple.com/favicon.ico",
+        "updated": "2019-10-19T01:40:43.000-07:00",
+        "results": [
+            {
+                "artistName": "Lilith Games",
+                "id": "1354260888",
+                "releaseDate": "2018-09-20",
+                "name": "萬國覺醒-RoK",
+                "kind": "iosSoftware",
+                "copyright": "Lilith Games © 2013 - 2019",
+                "artistId": "982119759",
+                "artistUrl": "https://apps.apple.com/hk/developer/lilith-games/id982119759",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/a5/7c/37/a57c37a6-3a4e-b7e3-286b-bd19210ecb34/AppIcon-0-1x_U007emarketing-0-85-220-9.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7014",
+                        "name": "RPG 遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7014"
+                    },
+                    {
+                        "genreId": "7017",
+                        "name": "策略遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7017"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E8%90%AC%E5%9C%8B%E8%A6%BA%E9%86%92-rok/id1354260888"
+            },
+            {
+                "artistName": "KLab Inc.",
+                "id": "1293738123",
+                "releaseDate": "2017-12-05",
+                "name": "Captain Tsubasa: Dream Team",
+                "kind": "iosSoftware",
+                "copyright": "©Yoichi Takahashi/SHUEISHA ©Yoichi Takahashi/SHUEISHA/TV TOKYO/ENOKIFILM © KLabGames",
+                "artistId": "302647750",
+                "artistUrl": "https://apps.apple.com/hk/developer/klab-inc/id302647750",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/55/85/d5/5585d5e9-fa5d-ac8b-5962-a151af8bbb65/AppIcon-0-1x_U007emarketing-0-85-220-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7015",
+                        "name": "模擬遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7015"
+                    },
+                    {
+                        "genreId": "7016",
+                        "name": "運動",
+                        "url": "https://itunes.apple.com/hk/genre/id7016"
+                    },
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/captain-tsubasa-dream-team/id1293738123"
+            },
+            {
+                "artistName": "Garena Online Private Ltd",
+                "id": "1089079153",
+                "releaseDate": "2016-10-13",
+                "name": "Garena 傳說對決",
+                "kind": "iosSoftware",
+                "copyright": "© Garena Online Private Limited",
+                "artistId": "513828660",
+                "artistUrl": "https://apps.apple.com/hk/developer/garena-online-private-ltd/id513828660",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/73/55/e6/7355e691-ffe6-a599-14e7-459c5a50e6aa/AppIcon-0-1x_U007emarketing-0-85-220-0-10.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7017",
+                        "name": "策略遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7017"
+                    },
+                    {
+                        "genreId": "7001",
+                        "name": "動作遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7001"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/garena-%E5%82%B3%E8%AA%AA%E5%B0%8D%E6%B1%BA/id1089079153"
+            },
+            {
+                "artistName": "LINE Corporation",
+                "id": "1453341551",
+                "releaseDate": "2019-06-18",
+                "name": "JUMPUTI HEROES 英雄氣泡",
+                "kind": "iosSoftware",
+                "copyright": "©JUMP 50th Anniversary ©LINE Corporation ©WonderPlanet Inc.",
+                "artistId": "359067226",
+                "artistUrl": "https://apps.apple.com/hk/developer/line-corporation/id359067226",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/4d/da/8b/4dda8b30-d505-6a8d-59eb-0bce60d472ff/AppIcon-0-1x_U007emarketing-0-85-220-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7014",
+                        "name": "RPG 遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7014"
+                    },
+                    {
+                        "genreId": "7012",
+                        "name": "解謎遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/jumputi-heroes-%E8%8B%B1%E9%9B%84%E6%B0%A3%E6%B3%A1/id1453341551"
+            },
+            {
+                "artistName": "Mover Games Limited",
+                "id": "1469352173",
+                "releaseDate": "2019-10-09",
+                "name": "AOD龍之怒吼",
+                "kind": "iosSoftware",
+                "copyright": "© Mover Games Limited",
+                "artistId": "1435137977",
+                "artistUrl": "https://apps.apple.com/hk/developer/mover-games-limited/id1435137977",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/c6/5e/19/c65e19be-7eee-7572-c2a8-3fd45e0a95f7/AppIcon-0-1x_U007emarketing-0-85-220-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7014",
+                        "name": "RPG 遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7014"
+                    },
+                    {
+                        "genreId": "7001",
+                        "name": "動作遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7001"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/aod%E9%BE%8D%E4%B9%8B%E6%80%92%E5%90%BC/id1469352173"
+            },
+            {
+                "artistName": "Niantic, Inc.",
+                "id": "1094591345",
+                "releaseDate": "2016-07-25",
+                "name": "Pokémon GO",
+                "kind": "iosSoftware",
+                "copyright": "© 2016-2018 Niantic, Inc. © 2016-2018 Pokémon. © 1995-2018 Nintendo/Creatures Inc./GAME FREAK inc.",
+                "artistId": "1037205060",
+                "artistUrl": "https://apps.apple.com/hk/developer/niantic-inc/id1037205060",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/e5/f4/68/e5f46895-d6b0-c857-2d11-794ac4d9efcd/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7017",
+                        "name": "策略遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7017"
+                    },
+                    {
+                        "genreId": "7014",
+                        "name": "RPG 遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7014"
+                    },
+                    {
+                        "genreId": "6013",
+                        "name": "健康與健身",
+                        "url": "https://itunes.apple.com/hk/genre/id6013"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/pok%C3%A9mon-go/id1094591345"
+            },
+            {
+                "artistName": "Chuang Cool Entertainment",
+                "id": "1241253595",
+                "releaseDate": "2017-07-19",
+                "name": "叫我官老爺 - 原創宮廷模擬當官手遊",
+                "kind": "iosSoftware",
+                "copyright": "© chuangcool",
+                "artistId": "1241253594",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://apps.apple.com/hk/developer/chuang-cool-entertainment/id1241253594",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/86/2e/3e/862e3e3c-39dd-f717-6d09-1f1fbe04c4ba/AppIcon-0-1x_U007emarketing-0-85-220-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7017",
+                        "name": "策略遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7017"
+                    },
+                    {
+                        "genreId": "7014",
+                        "name": "RPG 遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7014"
+                    },
+                    {
+                        "genreId": "6005",
+                        "name": "社交",
+                        "url": "https://itunes.apple.com/hk/genre/id6005"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E5%8F%AB%E6%88%91%E5%AE%98%E8%80%81%E7%88%BA-%E5%8E%9F%E5%89%B5%E5%AE%AE%E5%BB%B7%E6%A8%A1%E6%93%AC%E7%95%B6%E5%AE%98%E6%89%8B%E9%81%8A/id1241253595"
+            },
+            {
+                "artistName": "Lilith Games",
+                "id": "1375425432",
+                "releaseDate": "2019-04-09",
+                "name": "劍與遠征-AFK Arena",
+                "kind": "iosSoftware",
+                "copyright": "Lilith Games © 2013 - 2018",
+                "artistId": "982119759",
+                "artistUrl": "https://apps.apple.com/hk/developer/lilith-games/id982119759",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/56/ee/1d/56ee1d3e-b755-ff7c-0dc3-175dca9d82c8/AppIcon-0-1x_U007emarketing-0-85-220-10.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7017",
+                        "name": "策略遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7017"
+                    },
+                    {
+                        "genreId": "7014",
+                        "name": "RPG 遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7014"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E5%8A%8D%E8%88%87%E9%81%A0%E5%BE%81-afk-arena/id1375425432"
+            },
+            {
+                "artistName": "YOTTA GAMES LIMITED",
+                "id": "1291203008",
+                "releaseDate": "2018-04-22",
+                "name": "大酋長",
+                "kind": "iosSoftware",
+                "copyright": "© Yottagames",
+                "artistId": "1235569397",
+                "artistUrl": "https://apps.apple.com/hk/developer/yotta-games-limited/id1235569397",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/56/30/3e/56303ed4-eecb-a09e-4c74-9c662360a3d8/AppIcon-0-1x_U007emarketing-0-85-220-0-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7017",
+                        "name": "策略遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7017"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E5%A4%A7%E9%85%8B%E9%95%B7/id1291203008"
+            },
+            {
+                "artistName": "Nintendo Co., Ltd.",
+                "id": "1352230941",
+                "releaseDate": "2018-09-26",
+                "name": "Dragalia Lost ～失落的龍絆～",
+                "kind": "iosSoftware",
+                "copyright": "© 2018 Nintendo / Cygames",
+                "artistId": "1062496488",
+                "artistUrl": "https://apps.apple.com/hk/developer/nintendo-co-ltd/id1062496488",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/5c/ca/38/5cca3841-eb77-c39c-91bd-81bf99713e25/AppIcon-0-1x_U007emarketing-0-85-220-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7014",
+                        "name": "RPG 遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7014"
+                    },
+                    {
+                        "genreId": "7001",
+                        "name": "動作遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7001"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/dragalia-lost-%E5%A4%B1%E8%90%BD%E7%9A%84%E9%BE%8D%E7%B5%86/id1352230941"
+            }
+        ]
+    }
+}

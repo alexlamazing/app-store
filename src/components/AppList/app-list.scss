@@ -85,8 +85,15 @@
                 .rating {
                     color: $textDarkGrey;
                     margin-top: 6px;
+                    .star-rating {
+                        display: inline-block;
+                        & > * {
+                            display: inline-block;
+                        }
+                    }
                     .count {
                         font-size: 0.8rem;
+                        margin-left: 4px;
                     }
                 }
             }

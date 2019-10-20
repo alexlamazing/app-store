@@ -57,11 +57,11 @@ export const fetchDetail = (appId) => async (dispatch, getState) => {
         type: UPDATE_APP_LISTING,
         value: {
             ...appUpdate,
-            avgRating: lookUpApp && lookUpApp.averageUserRatingForCurrentVersion
-                ? lookUpApp.averageUserRatingForCurrentVersion
+            avgRating: lookUpApp && lookUpApp.averageUserRating
+                ? lookUpApp.averageUserRating
                 : 0,
-            ratingCount: lookUpApp && lookUpApp.userRatingCountForCurrentVersion
-                ? lookUpApp.userRatingCountForCurrentVersion 
+            ratingCount: lookUpApp && lookUpApp.userRatingCount
+                ? lookUpApp.userRatingCount 
                 : 0,
             description: lookUpApp && lookUpApp.description
                 ? lookUpApp.description
@@ -73,11 +73,11 @@ export const fetchDetail = (appId) => async (dispatch, getState) => {
         type: UPDATE_APP_LISTING_FILTERED,
         value: {
             ...appFilteredUpdate,
-            avgRating: lookUpApp && lookUpApp.averageUserRatingForCurrentVersion
-                ? lookUpApp.averageUserRatingForCurrentVersion
+            avgRating: lookUpApp && lookUpApp.averageUserRating
+                ? lookUpApp.averageUserRating
                 : 0,
-            ratingCount: lookUpApp && lookUpApp.userRatingCountForCurrentVersion
-                ? lookUpApp.userRatingCountForCurrentVersion 
+            ratingCount: lookUpApp && lookUpApp.userRatingCount
+                ? lookUpApp.userRatingCount 
                 : 0,
             description: lookUpApp && lookUpApp.description
                 ? lookUpApp.description

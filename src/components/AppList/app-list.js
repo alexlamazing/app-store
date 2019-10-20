@@ -13,13 +13,48 @@ import { fetchFreeApp, filterFreeApp } from "./actions";
 import "./app-list.scss";
 
 function AppList(props) {
-    const { apps, appsFiltered, error, isFetching, keyword, fetchFreeApp, filterFreeApp } = props;
+    const {
+        apps,
+        appsFiltered,
+        error,
+        isFetching,
+        isLoadingMore,
+        keyword,
+        fetchFreeApp,
+        filterFreeApp
+    } = props;
+
     React.useEffect(() => {
         fetchFreeApp();
     }, []);
+
     React.useEffect(() => {
         filterFreeApp(keyword);
     }, [keyword]);
+
+    React.useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
+    const handleScroll = (event) => {
+        const body = document.body,
+              html = document.documentElement;
+    
+        const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+
+        if (isLoadingMore) { return; }
+
+        if (window.innerHeight + document.documentElement.scrollTop >= height - 300) {
+            // if (onLoadMore) {
+            //     onLoadMore();
+            // }
+            console.log(`load more`);
+        }
+    }
+
     return (
         <div className="app-list">
             <div className="content">
@@ -66,16 +101,17 @@ function AppList(props) {
 AppList.propTypes = {
     apps: PropTypes.array,
     appsFiltered: PropTypes.array,
-    isFetching: PropTypes.bool,
+    error: PropTypes.string,
     fetchFreeApp: PropTypes.func,
-    keyword: PropTypes.string,
-    error: PropTypes.string
+    isFetching: PropTypes.bool,
+    isLoadingMore: PropTypes.bool,
+    keyword: PropTypes.string
 }
 
 const mapStateToProps = state => {
     const { keyword } = state;
-    const { apps, appsFiltered, error, isFetching } = state.topFree;
-    return { apps, appsFiltered, error, isFetching, keyword }
+    const { apps, appsFiltered, error, isFetching, isLoadingMore } = state.topFree;
+    return { apps, appsFiltered, error, isFetching, isLoadingMore, keyword }
 }
 
 export default connect(mapStateToProps, {

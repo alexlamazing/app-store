@@ -3,6 +3,7 @@ import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 
 import withLazyLoad from "./lazy-load";
+import StarRating from "../Star/star";
 
 // actions
 import { fetchDetail } from "./actions";
@@ -12,11 +13,13 @@ import "./app-list.scss";
 
 function ListItem(props) {
     const { app, index, fetchDetail } = props;
+
     React.useEffect(() => {
         if (app.id && !app.ratingCount) {
             fetchDetail(app.id);
         }
     }, [app.id]);
+
     return (
         <li className="list-item">
             <div className="rank">{index || ""}</div>
@@ -26,6 +29,13 @@ function ListItem(props) {
                     <span className="name">{app.name || ""}</span>
                     <span className="category">{ app.genres && app.genres.length > 0 ? app.genres.map(category => category.name)[0] : ""}</span>
                     <div className="rating">
+                        <div className="star-rating">
+                            {
+                                app.avgRating && (
+                                    <StarRating totalStars={5} numOfSelectedStars={Math.floor(app.avgRating)} />
+                                )
+                            }
+                        </div>
                         <span className="count">{`(${app.ratingCount || "--"})`}</span>
                     </div>
                 </div>

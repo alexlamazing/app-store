@@ -1,0 +1,2504 @@
+{
+    "feed": {
+        "title": "Top Free iPhone Apps",
+        "id": "https://rss.itunes.apple.com/api/v1/hk/ios-apps/top-free/all/100/explicit.json",
+        "author": {
+            "name": "iTunes Store",
+            "uri": "http://wwww.apple.com/hk/itunes/"
+        },
+        "links": [
+            {
+                "self": "https://rss.itunes.apple.com/api/v1/hk/ios-apps/top-free/all/100/explicit.json"
+            },
+            {
+                "alternate": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?genreId=36\u0026popId=27"
+            }
+        ],
+        "copyright": "Copyright © 2018 Apple Inc. All rights reserved.",
+        "country": "hk",
+        "icon": "http://itunes.apple.com/favicon.ico",
+        "updated": "2019-10-19T01:40:59.000-07:00",
+        "results": [
+            {
+                "artistName": "tiantong tiantong",
+                "id": "1290714517",
+                "releaseDate": "2017-10-16",
+                "name": "曹操咪走-三國對決，slg策略卡牌遊戲",
+                "kind": "iosSoftware",
+                "copyright": "© Coodoo Mutual Entertainment Limited",
+                "artistId": "1050580266",
+                "artistUrl": "https://apps.apple.com/hk/developer/tiantong-tiantong/id1050580266",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/a9/90/1c/a9901c5e-5d20-221d-7ea5-5b4b43e5deee/AppIcon-0-1x_U007emarketing-0-85-220-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7005",
+                        "name": "卡牌遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7005"
+                    },
+                    {
+                        "genreId": "7017",
+                        "name": "策略遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7017"
+                    },
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E6%9B%B9%E6%93%8D%E5%92%AA%E8%B5%B0-%E4%B8%89%E5%9C%8B%E5%B0%8D%E6%B1%BA-slg%E7%AD%96%E7%95%A5%E5%8D%A1%E7%89%8C%E9%81%8A%E6%88%B2/id1290714517"
+            },
+            {
+                "artistName": "哪吒網絡科技有限公司",
+                "id": "1480257395",
+                "releaseDate": "2019-10-09",
+                "name": "逸仙情緣",
+                "kind": "iosSoftware",
+                "copyright": "© yxqy Inc",
+                "artistId": "1480257394",
+                "artistUrl": "https://apps.apple.com/hk/developer/%E5%93%AA%E5%90%92%E7%B6%B2%E7%B5%A1%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/id1480257394",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c6/22/72/c622725a-0b88-6c1f-858b-0daddf2073d8/AppIcon-0-1x_U007emarketing-0-85-220-10.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7001",
+                        "name": "動作遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7001"
+                    },
+                    {
+                        "genreId": "7014",
+                        "name": "RPG 遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7014"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E9%80%B8%E4%BB%99%E6%83%85%E7%B7%A3/id1480257395"
+            },
+            {
+                "artistName": "PoseidonGames",
+                "id": "1444252195",
+                "releaseDate": "2019-03-14",
+                "name": "全民小小兵",
+                "kind": "iosSoftware",
+                "copyright": "© Poseidon Games Limited",
+                "artistId": "1440117897",
+                "artistUrl": "https://apps.apple.com/hk/developer/poseidongames/id1440117897",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/04/b1/ce/04b1cecd-efbc-0775-5fca-edeb2a4cfcb2/AppIcon-0-1x_U007emarketing-0-85-220-10.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7017",
+                        "name": "策略遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7017"
+                    },
+                    {
+                        "genreId": "7014",
+                        "name": "RPG 遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7014"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E5%85%A8%E6%B0%91%E5%B0%8F%E5%B0%8F%E5%85%B5/id1444252195"
+            },
+            {
+                "artistName": "Garena Mobile Private",
+                "id": "1465688043",
+                "releaseDate": "2019-10-01",
+                "name": "決勝時刻: Mobile - Garena",
+                "kind": "iosSoftware",
+                "copyright": "© Garena Online Private Limited",
+                "artistId": "1047094789",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://apps.apple.com/hk/developer/garena-mobile-private/id1047094789",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/0f/6e/f1/0f6ef18d-ac77-44dd-bd4a-70846aa8f72e/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7001",
+                        "name": "動作遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7001"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E6%B1%BA%E5%8B%9D%E6%99%82%E5%88%BB-mobile-garena/id1465688043"
+            },
+            {
+                "artistName": "Klook Travel Technology Limited",
+                "id": "961850126",
+                "releaseDate": "2015-04-23",
+                "name": "KLOOK客路",
+                "kind": "iosSoftware",
+                "copyright": "© 2014 - 2018 Klook Travel Technology Limited. All Rights Reserved.",
+                "artistId": "961850125",
+                "artistUrl": "https://apps.apple.com/hk/developer/klook-travel-technology-limited/id961850125",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/9e/5e/6b/9e5e6ba2-3c78-87cb-0a56-2211fba3f424/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6003",
+                        "name": "旅遊",
+                        "url": "https://itunes.apple.com/hk/genre/id6003"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/klook%E5%AE%A2%E8%B7%AF/id961850126"
+            },
+            {
+                "artistName": "Chung Yeung Chan",
+                "id": "1470281342",
+                "releaseDate": "2019-10-01",
+                "name": "HK Bussez - 香港巴士路線",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 Linking",
+                "artistId": "1140508788",
+                "artistUrl": "https://apps.apple.com/hk/developer/chung-yeung-chan/id1140508788",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/9b/14/ef/9b14ef31-aa2d-80d3-5052-a5c363921af1/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6010",
+                        "name": "導航",
+                        "url": "https://itunes.apple.com/hk/genre/id6010"
+                    },
+                    {
+                        "genreId": "6003",
+                        "name": "旅遊",
+                        "url": "https://itunes.apple.com/hk/genre/id6003"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/hk-bussez-%E9%A6%99%E6%B8%AF%E5%B7%B4%E5%A3%AB%E8%B7%AF%E7%B7%9A/id1470281342"
+            },
+            {
+                "artistName": "Chi Ng",
+                "id": "1475004773",
+                "releaseDate": "2019-10-04",
+                "name": "WhatsGap - 發夢夾公仔地圖",
+                "kind": "iosSoftware",
+                "copyright": "Copyright © 2019 Chi Ng All rights reserved",
+                "artistId": "1475004772",
+                "artistUrl": "https://apps.apple.com/hk/developer/chi-ng/id1475004772",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/98/35/f3/9835f35d-ff29-175c-d642-34c7c52f31c5/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6010",
+                        "name": "導航",
+                        "url": "https://itunes.apple.com/hk/genre/id6010"
+                    },
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/whatsgap-%E7%99%BC%E5%A4%A2%E5%A4%BE%E5%85%AC%E4%BB%94%E5%9C%B0%E5%9C%96/id1475004773"
+            },
+            {
+                "artistName": "EYEWIND LIMITED",
+                "id": "1477841973",
+                "releaseDate": "2019-10-07",
+                "name": "Brain Out",
+                "kind": "iosSoftware",
+                "copyright": "© EYEWIND LIMITED",
+                "artistId": "1317690197",
+                "artistUrl": "https://apps.apple.com/hk/developer/eyewind-limited/id1317690197",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/b0/09/88/b00988f6-c01a-a146-4dcf-224fa2dc1357/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7019",
+                        "name": "文字遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7019"
+                    },
+                    {
+                        "genreId": "7012",
+                        "name": "解謎遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7012"
+                    },
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/brain-out/id1477841973"
+            },
+            {
+                "artistName": "Nintendo Co., Ltd.",
+                "id": "1293634699",
+                "releaseDate": "2019-09-25",
+                "name": "Mario Kart Tour",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 Nintendo",
+                "artistId": "1062496488",
+                "artistUrl": "https://apps.apple.com/hk/developer/nintendo-co-ltd/id1062496488",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/72/f7/99/72f7990d-4e57-8a66-5eef-2a9da9c95b11/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-8.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7001",
+                        "name": "動作遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7001"
+                    },
+                    {
+                        "genreId": "7013",
+                        "name": "競速遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7013"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/mario-kart-tour/id1293634699"
+            },
+            {
+                "artistName": "WhatsApp Inc.",
+                "id": "310633997",
+                "releaseDate": "2009-05-04",
+                "name": "WhatsApp Messenger",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 WhatsApp Inc.",
+                "artistId": "310634000",
+                "artistUrl": "https://apps.apple.com/hk/developer/whatsapp-inc/id310634000",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/ae/cb/bb/aecbbb90-d987-f217-60ad-8546016579c3/AppIcon-0-1x_U007emarketing-0-0-85-220-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6005",
+                        "name": "社交",
+                        "url": "https://itunes.apple.com/hk/genre/id6005"
+                    },
+                    {
+                        "genreId": "6002",
+                        "name": "工具程式",
+                        "url": "https://itunes.apple.com/hk/genre/id6002"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/whatsapp-messenger/id310633997"
+            },
+            {
+                "artistName": "Google LLC",
+                "id": "585027354",
+                "releaseDate": "2012-12-13",
+                "name": "Google 地圖",
+                "kind": "iosSoftware",
+                "copyright": "© Google Inc.",
+                "artistId": "281956209",
+                "artistUrl": "https://apps.apple.com/hk/developer/google-llc/id281956209",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/7f/c0/56/7fc056d8-6427-3fe7-f3d3-9edcd506be7f/logo_maps_ios_color-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6010",
+                        "name": "導航",
+                        "url": "https://itunes.apple.com/hk/genre/id6010"
+                    },
+                    {
+                        "genreId": "6023",
+                        "name": "美食佳飲",
+                        "url": "https://itunes.apple.com/hk/genre/id6023"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/google-%E5%9C%B0%E5%9C%96/id585027354"
+            },
+            {
+                "artistName": "The Kowloon Motor Bus Company (1933) Limited",
+                "id": "1170003707",
+                "releaseDate": "2016-11-21",
+                "name": "App1933 - KMB ‧ LWB",
+                "kind": "iosSoftware",
+                "copyright": "© The Kowloon Motor Bus Company (1933) Limited",
+                "artistId": "424571908",
+                "artistUrl": "https://apps.apple.com/hk/developer/the-kowloon-motor-bus-company-1933-limited/id424571908",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/79/6c/7d/796c7d53-a749-810b-a1e9-29c7bdee3446/AppIcon-0-1x_U007emarketing-0-0-85-220-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6003",
+                        "name": "旅遊",
+                        "url": "https://itunes.apple.com/hk/genre/id6003"
+                    },
+                    {
+                        "genreId": "6010",
+                        "name": "導航",
+                        "url": "https://itunes.apple.com/hk/genre/id6010"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/app1933-kmb-lwb/id1170003707"
+            },
+            {
+                "artistName": "Google LLC",
+                "id": "544007664",
+                "releaseDate": "2012-09-11",
+                "name": "YouTube",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 Google Inc.",
+                "artistId": "281956209",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://apps.apple.com/hk/developer/google-llc/id281956209",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/1a/aa/0d/1aaa0d99-80de-088b-07ce-5e8bad8e8a8f/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6008",
+                        "name": "相片與影片",
+                        "url": "https://itunes.apple.com/hk/genre/id6008"
+                    },
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/youtube/id544007664"
+            },
+            {
+                "artistName": "Foodpanda",
+                "id": "758103884",
+                "releaseDate": "2013-11-25",
+                "name": "foodpanda - 線上訂餐美食外送",
+                "kind": "iosSoftware",
+                "copyright": "© Foodpanda 2018",
+                "artistId": "606917985",
+                "artistUrl": "https://apps.apple.com/hk/developer/foodpanda/id606917985",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/50/15/c8/5015c86c-b055-3327-ff7c-1c9ae4abf426/AppIcon-0-1x_U007emarketing-0-0-85-220-0-5.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6023",
+                        "name": "美食佳飲",
+                        "url": "https://itunes.apple.com/hk/genre/id6023"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/foodpanda-%E7%B7%9A%E4%B8%8A%E8%A8%82%E9%A4%90%E7%BE%8E%E9%A3%9F%E5%A4%96%E9%80%81/id758103884"
+            },
+            {
+                "artistName": "Google LLC",
+                "id": "962194608",
+                "releaseDate": "2015-05-28",
+                "name": "Google 相簿 - 相片和影片儲存空間",
+                "kind": "iosSoftware",
+                "copyright": "© 2016, Google Inc",
+                "artistId": "281956209",
+                "artistUrl": "https://apps.apple.com/hk/developer/google-llc/id281956209",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/2f/1a/70/2f1a70a3-f263-e35b-57ed-2de3a3381854/logo_photos_color-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6008",
+                        "name": "相片與影片",
+                        "url": "https://itunes.apple.com/hk/genre/id6008"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/google-%E7%9B%B8%E7%B0%BF-%E7%9B%B8%E7%89%87%E5%92%8C%E5%BD%B1%E7%89%87%E5%84%B2%E5%AD%98%E7%A9%BA%E9%96%93/id962194608"
+            },
+            {
+                "artistName": "WeChat",
+                "id": "414478124",
+                "releaseDate": "2011-01-21",
+                "name": "WeChat",
+                "kind": "iosSoftware",
+                "copyright": "Copyright © 2011 - 2019 Tencent Inc. All Rights Reserved",
+                "artistId": "614694882",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://apps.apple.com/hk/developer/wechat/id614694882",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/3a/46/38/3a46386f-f4fb-25b0-328d-4d9b743a9997/AppIcon-0-1x_U007emarketing-0-0-0-85-220-0-4.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6005",
+                        "name": "社交",
+                        "url": "https://itunes.apple.com/hk/genre/id6005"
+                    },
+                    {
+                        "genreId": "6007",
+                        "name": "生產力工具",
+                        "url": "https://itunes.apple.com/hk/genre/id6007"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/wechat/id414478124"
+            },
+            {
+                "artistName": "Instagram, Inc.",
+                "id": "389801252",
+                "releaseDate": "2010-10-06",
+                "name": "Instagram",
+                "kind": "iosSoftware",
+                "copyright": "© 2018 Instagram, LLC.",
+                "artistId": "389801255",
+                "artistUrl": "https://apps.apple.com/hk/developer/instagram-inc/id389801255",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/67/b5/84/67b58475-54b9-17bc-e90e-029166a7987e/Prod-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6008",
+                        "name": "相片與影片",
+                        "url": "https://itunes.apple.com/hk/genre/id6008"
+                    },
+                    {
+                        "genreId": "6005",
+                        "name": "社交",
+                        "url": "https://itunes.apple.com/hk/genre/id6005"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/instagram/id389801252"
+            },
+            {
+                "artistName": "TojoyGame",
+                "id": "1469860251",
+                "releaseDate": "2019-09-28",
+                "name": "放置公主 - AFK SRPG",
+                "kind": "iosSoftware",
+                "copyright": "© Copyright 2018 TOJOY Game Corporation.All rights reserved.",
+                "artistId": "1468606751",
+                "artistUrl": "https://apps.apple.com/hk/developer/tojoygame/id1468606751",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/fa/b9/00/fab9007e-6f06-d69b-233f-5b994021a1ad/AppIcon-0-0-1x_U007emarketing-0-0-0-7-85-220.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    },
+                    {
+                        "genreId": "7005",
+                        "name": "卡牌遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7005"
+                    },
+                    {
+                        "genreId": "7014",
+                        "name": "RPG 遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7014"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E6%94%BE%E7%BD%AE%E5%85%AC%E4%B8%BB-afk-srpg/id1469860251"
+            },
+            {
+                "artistName": "Facebook, Inc.",
+                "id": "284882215",
+                "releaseDate": "2008-07-11",
+                "name": "Facebook",
+                "kind": "iosSoftware",
+                "copyright": "© Facebook, Inc.",
+                "artistId": "284882218",
+                "artistUrl": "https://apps.apple.com/hk/developer/facebook-inc/id284882218",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/3d/ff/da/3dffda05-a238-d44c-6667-b47e53d9d651/Icon-Production-0-1x_U007emarketing-0-0-85-220-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6005",
+                        "name": "社交",
+                        "url": "https://itunes.apple.com/hk/genre/id6005"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/facebook/id284882215"
+            },
+            {
+                "artistName": "The Hongkong and Shanghai Banking Corporation Ltd.",
+                "id": "1184264977",
+                "releaseDate": "2017-02-07",
+                "name": "PayMe from HSBC",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 The Hongkong and Shanghai Banking Corporation Limited",
+                "artistId": "306028848",
+                "artistUrl": "https://apps.apple.com/hk/developer/the-hongkong-and-shanghai-banking-corporation-ltd/id306028848",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/82/e1/ab/82e1abb1-9b2b-1746-4f09-01548cc01cc6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-8.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6015",
+                        "name": "理財",
+                        "url": "https://itunes.apple.com/hk/genre/id6015"
+                    },
+                    {
+                        "genreId": "6000",
+                        "name": "商業",
+                        "url": "https://itunes.apple.com/hk/genre/id6000"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/payme-from-hsbc/id1184264977"
+            },
+            {
+                "artistName": "Google LLC",
+                "id": "422689480",
+                "releaseDate": "2011-11-02",
+                "name": "Gmail - Google 推出的電子郵件服務",
+                "kind": "iosSoftware",
+                "copyright": "© Google LLC",
+                "artistId": "281956209",
+                "artistUrl": "https://apps.apple.com/hk/developer/google-llc/id281956209",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/41/cc/69/41cc69d6-2fd2-fcb5-c4c0-b7608bf9af4a/logo_gmail_color-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6007",
+                        "name": "生產力工具",
+                        "url": "https://itunes.apple.com/hk/genre/id6007"
+                    },
+                    {
+                        "genreId": "6005",
+                        "name": "社交",
+                        "url": "https://itunes.apple.com/hk/genre/id6005"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/gmail-google-%E6%8E%A8%E5%87%BA%E7%9A%84%E9%9B%BB%E5%AD%90%E9%83%B5%E4%BB%B6%E6%9C%8D%E5%8B%99/id422689480"
+            },
+            {
+                "artistName": "Facebook, Inc.",
+                "id": "454638411",
+                "releaseDate": "2011-10-19",
+                "name": "Messenger",
+                "kind": "iosSoftware",
+                "copyright": "© Facebook, Inc.",
+                "artistId": "284882218",
+                "artistUrl": "https://apps.apple.com/hk/developer/facebook-inc/id284882218",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/33/6d/26/336d268d-6602-4809-825d-5e6b7e60be3e/Icon-0-1x_U007emarketing-0-0-85-220-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6005",
+                        "name": "社交",
+                        "url": "https://itunes.apple.com/hk/genre/id6005"
+                    },
+                    {
+                        "genreId": "6007",
+                        "name": "生產力工具",
+                        "url": "https://itunes.apple.com/hk/genre/id6007"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/messenger/id454638411"
+            },
+            {
+                "artistName": "Alipay Payment Services (HK) Limited",
+                "id": "1210638245",
+                "releaseDate": "2017-05-24",
+                "name": "AlipayHK (支付寶香港)",
+                "kind": "iosSoftware",
+                "copyright": "© 2017 Alipay.hk Co.,Ltd",
+                "artistId": "1434654038",
+                "artistUrl": "https://apps.apple.com/hk/developer/alipay-payment-services-hk-limited/id1434654038",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/82/9b/e4/829be421-f40a-4146-d30d-352a57b95d9f/AppIcon-0-1x_U007emarketing-0-0-85-220-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6015",
+                        "name": "理財",
+                        "url": "https://itunes.apple.com/hk/genre/id6015"
+                    },
+                    {
+                        "genreId": "6024",
+                        "name": "購物",
+                        "url": "https://itunes.apple.com/hk/genre/id6024"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/alipayhk-%E6%94%AF%E4%BB%98%E5%AF%B6%E9%A6%99%E6%B8%AF/id1210638245"
+            },
+            {
+                "artistName": "Google LLC",
+                "id": "414706506",
+                "releaseDate": "2011-02-08",
+                "name": "Google 翻譯",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 Google Inc.",
+                "artistId": "281956209",
+                "artistUrl": "https://apps.apple.com/hk/developer/google-llc/id281956209",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/4e/df/96/4edf961f-eb8b-98b8-ef12-4f017a1467fd/logo_translate_color-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6006",
+                        "name": "參考",
+                        "url": "https://itunes.apple.com/hk/genre/id6006"
+                    },
+                    {
+                        "genreId": "6003",
+                        "name": "旅遊",
+                        "url": "https://itunes.apple.com/hk/genre/id6003"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/google-%E7%BF%BB%E8%AD%AF/id414706506"
+            },
+            {
+                "artistName": "Bank of China (Hong Kong) Limited",
+                "id": "1403690384",
+                "releaseDate": "2018-07-30",
+                "name": "BoC Pay",
+                "kind": "iosSoftware",
+                "copyright": "COPYRIGHT© Bank Of China (Hong Kong) Limited",
+                "artistId": "385731636",
+                "artistUrl": "https://apps.apple.com/hk/developer/bank-of-china-hong-kong-limited/id385731636",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/92/b4/5a/92b45a0b-e5b7-0c52-924f-05cf32f70618/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6015",
+                        "name": "理財",
+                        "url": "https://itunes.apple.com/hk/genre/id6015"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/boc-pay/id1403690384"
+            },
+            {
+                "artistName": "Citybus \u0026 New World First Bus",
+                "id": "472242340",
+                "releaseDate": "2011-10-21",
+                "name": "新巴城巴 CitybusNWFB",
+                "kind": "iosSoftware",
+                "copyright": "Copyright © 2016 New World First Bus Services Limited \u0026 Citybus Limited. All rights reserved.",
+                "artistId": "472242343",
+                "artistUrl": "https://apps.apple.com/hk/developer/citybus-new-world-first-bus/id472242343",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c3/b7/98/c3b7980a-30a8-7729-349c-1a0e71574c9a/AppIcon-0-1x_U007emarketing-85-220-4.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6003",
+                        "name": "旅遊",
+                        "url": "https://itunes.apple.com/hk/genre/id6003"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E6%96%B0%E5%B7%B4%E5%9F%8E%E5%B7%B4-citybusnwfb/id472242340"
+            },
+            {
+                "artistName": "HK01 Company Limited",
+                "id": "1084662006",
+                "releaseDate": "2016-03-01",
+                "name": "香港01",
+                "kind": "iosSoftware",
+                "copyright": "©HK01, 2019. All Rights Reserved.",
+                "artistId": "1071376679",
+                "artistUrl": "https://apps.apple.com/hk/developer/hk01-company-limited/id1071376679",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/38/9b/a4/389ba49f-01ff-cf48-5c9c-27ae7b5c3397/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6009",
+                        "name": "新聞",
+                        "url": "https://itunes.apple.com/hk/genre/id6009"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E9%A6%99%E6%B8%AF01/id1084662006"
+            },
+            {
+                "artistName": "Telegram LLC",
+                "id": "686449807",
+                "releaseDate": "2013-08-14",
+                "name": "Telegram Messenger",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 Telegram FZ-LLC",
+                "artistId": "686450210",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://apps.apple.com/hk/developer/telegram-llc/id686450210",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/0b/65/64/0b65641c-380b-523a-874d-87f49a45924d/AppIconLLC-0-1x_U007emarketing-0-0-85-220-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6005",
+                        "name": "社交",
+                        "url": "https://itunes.apple.com/hk/genre/id6005"
+                    },
+                    {
+                        "genreId": "6007",
+                        "name": "生產力工具",
+                        "url": "https://itunes.apple.com/hk/genre/id6007"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/telegram-messenger/id686449807"
+            },
+            {
+                "artistName": "Taobao (China) Software CO.,LTD",
+                "id": "387682726",
+                "releaseDate": "2010-09-04",
+                "name": "手机淘宝 - 淘到你说好",
+                "kind": "iosSoftware",
+                "copyright": "© 2018 阿里巴巴（中国）有限公司",
+                "artistId": "387682729",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://apps.apple.com/hk/developer/taobao-china-software-co-ltd/id387682729",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/22/5b/a1/225ba132-fe6f-7ef8-e5b7-4eae8fd2b3b5/AppIcon-0-1x_U007emarketing-0-0-sRGB-85-220-0-8.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6024",
+                        "name": "購物",
+                        "url": "https://itunes.apple.com/hk/genre/id6024"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D-%E6%B7%98%E5%88%B0%E4%BD%A0%E8%AF%B4%E5%A5%BD/id387682726"
+            },
+            {
+                "artistName": "Ho Chung Kwok",
+                "id": "1442273161",
+                "releaseDate": "2018-11-20",
+                "name": "WSTicK",
+                "kind": "iosSoftware",
+                "copyright": "Copyright © 2019 Kwok Ho Chung All rights reserved",
+                "artistId": "1140870392",
+                "artistUrl": "https://apps.apple.com/hk/developer/ho-chung-kwok/id1140870392",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/73/27/14/73271423-2d8d-4d92-5a18-d96f26bd03e6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6005",
+                        "name": "社交",
+                        "url": "https://itunes.apple.com/hk/genre/id6005"
+                    },
+                    {
+                        "genreId": "6007",
+                        "name": "生產力工具",
+                        "url": "https://itunes.apple.com/hk/genre/id6007"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/wstick/id1442273161"
+            },
+            {
+                "artistName": "Bank of China (Hong Kong) Limited",
+                "id": "385731633",
+                "releaseDate": "2010-08-15",
+                "name": "中銀香港",
+                "kind": "iosSoftware",
+                "copyright": "© Bank of China (Hong Kong) Limited",
+                "artistId": "385731636",
+                "artistUrl": "https://apps.apple.com/hk/developer/bank-of-china-hong-kong-limited/id385731636",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/73/40/51/734051d9-a08d-4231-67b0-6fb72099d4c9/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6015",
+                        "name": "理財",
+                        "url": "https://itunes.apple.com/hk/genre/id6015"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E4%B8%AD%E9%8A%80%E9%A6%99%E6%B8%AF/id385731633"
+            },
+            {
+                "artistName": "Google LLC",
+                "id": "535886823",
+                "releaseDate": "2012-06-28",
+                "name": "Google Chrome",
+                "kind": "iosSoftware",
+                "copyright": "© Google Inc.",
+                "artistId": "281956209",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://apps.apple.com/hk/developer/google-llc/id281956209",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/37/09/2a/37092ada-b81c-e31f-6750-7f1d96ae229a/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6002",
+                        "name": "工具程式",
+                        "url": "https://itunes.apple.com/hk/genre/id6002"
+                    },
+                    {
+                        "genreId": "6007",
+                        "name": "生產力工具",
+                        "url": "https://itunes.apple.com/hk/genre/id6007"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/google-chrome/id535886823"
+            },
+            {
+                "artistName": "HSBC Global Services (UK) Limited",
+                "id": "1164066737",
+                "releaseDate": "2016-10-26",
+                "name": "HSBC HK 香港滙豐流動理財",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 The Hongkong and Shanghai Banking Corporation Limited",
+                "artistId": "1112071557",
+                "artistUrl": "https://apps.apple.com/hk/developer/hsbc-global-services-uk-limited/id1112071557",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/43/83/7c/43837ce1-123b-32a6-088b-dae4da93b3f8/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6015",
+                        "name": "理財",
+                        "url": "https://itunes.apple.com/hk/genre/id6015"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/hsbc-hk-%E9%A6%99%E6%B8%AF%E6%BB%99%E8%B1%90%E6%B5%81%E5%8B%95%E7%90%86%E8%B2%A1/id1164066737"
+            },
+            {
+                "artistName": "RUBY OYUN VE YAZILIM DANISMANLIK",
+                "id": "1479587574",
+                "releaseDate": "2019-10-03",
+                "name": "Hunter Assassin",
+                "kind": "iosSoftware",
+                "copyright": "© Mert Can KURUM",
+                "artistId": "939257836",
+                "artistUrl": "https://apps.apple.com/hk/developer/ruby-oyun-ve-yazilim-danismanlik/id939257836",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/2c/ac/9c/2cac9c4c-32de-3cb8-d2f2-6b53abbed315/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-85-220.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7003",
+                        "name": "休閒遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7003"
+                    },
+                    {
+                        "genreId": "7001",
+                        "name": "動作遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7001"
+                    },
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/hunter-assassin/id1479587574"
+            },
+            {
+                "artistName": "Ritual Technologies Inc.",
+                "id": "938467045",
+                "releaseDate": "2019-08-07",
+                "name": "Ritual (日嘗)－ 外賣自取",
+                "kind": "iosSoftware",
+                "copyright": "© 2015 Ritual Technologies Inc",
+                "artistId": "938467044",
+                "artistUrl": "https://apps.apple.com/hk/developer/ritual-technologies-inc/id938467044",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/ea/ec/1b/eaec1bae-72bb-3ff0-bf41-0864ab9548c8/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6023",
+                        "name": "美食佳飲",
+                        "url": "https://itunes.apple.com/hk/genre/id6023"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/ritual-%E6%97%A5%E5%98%97-%E5%A4%96%E8%B3%A3%E8%87%AA%E5%8F%96/id938467045"
+            },
+            {
+                "artistName": "Tencent Mobility Limited",
+                "id": "914406371",
+                "releaseDate": "2014-12-20",
+                "name": "JOOX Music - Live and Karaoke",
+                "kind": "iosSoftware",
+                "copyright": "© Tencent. All Rights Reserved",
+                "artistId": "912765941",
+                "artistUrl": "https://apps.apple.com/hk/developer/tencent-mobility-limited/id912765941",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/a1/90/c3/a190c3d4-786b-171f-ad02-e00c45bed05e/AppIcon-0-1x_U007emarketing-0-0-85-220-0-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6011",
+                        "name": "音樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6011"
+                    },
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/joox-music-live-and-karaoke/id914406371"
+            },
+            {
+                "artistName": "Citymapper Limited",
+                "id": "469463298",
+                "releaseDate": "2011-10-18",
+                "name": "Citymapper",
+                "kind": "iosSoftware",
+                "copyright": "© 2018 Citymapper Limited",
+                "artistId": "431553215",
+                "artistUrl": "https://apps.apple.com/hk/developer/citymapper-limited/id431553215",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/02/ff/ee/02ffee95-b695-5dbd-e64c-9092c93aee36/AppIcon-Release-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6010",
+                        "name": "導航",
+                        "url": "https://itunes.apple.com/hk/genre/id6010"
+                    },
+                    {
+                        "genreId": "6003",
+                        "name": "旅遊",
+                        "url": "https://itunes.apple.com/hk/genre/id6003"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/citymapper/id469463298"
+            },
+            {
+                "artistName": "Octopus Cards",
+                "id": "1114430602",
+                "releaseDate": "2016-08-01",
+                "name": "Octopus 八達通",
+                "kind": "iosSoftware",
+                "copyright": "© Octopus Cards Limited",
+                "artistId": "880569113",
+                "artistUrl": "https://apps.apple.com/hk/developer/octopus-cards/id880569113",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/86/be/23/86be2384-6ea7-a83d-228b-f5578aa2fdb4/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-4.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6015",
+                        "name": "理財",
+                        "url": "https://itunes.apple.com/hk/genre/id6015"
+                    },
+                    {
+                        "genreId": "6002",
+                        "name": "工具程式",
+                        "url": "https://itunes.apple.com/hk/genre/id6002"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/octopus-%E5%85%AB%E9%81%94%E9%80%9A/id1114430602"
+            },
+            {
+                "artistName": "Google LLC",
+                "id": "284815942",
+                "releaseDate": "2008-07-11",
+                "name": "Google",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 Google Inc.",
+                "artistId": "281956209",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://apps.apple.com/hk/developer/google-llc/id281956209",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/e3/8e/3d/e38e3dba-d489-1feb-b522-afb22c58fe8f/logo_gsa_ios_color-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6002",
+                        "name": "工具程式",
+                        "url": "https://itunes.apple.com/hk/genre/id6002"
+                    },
+                    {
+                        "genreId": "6006",
+                        "name": "參考",
+                        "url": "https://itunes.apple.com/hk/genre/id6006"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/google/id284815942"
+            },
+            {
+                "artistName": "Ctrip.com international",
+                "id": "681752345",
+                "releaseDate": "2013-08-05",
+                "name": "Trip.com",
+                "kind": "iosSoftware",
+                "copyright": "Copyright © 1999-2019 Trip.com. All rights reserved",
+                "artistId": "681752348",
+                "artistUrl": "https://apps.apple.com/hk/developer/ctrip-com-international/id681752348",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/7d/11/bd/7d11bd54-f188-fb0a-26f5-3a42d77c4e38/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6003",
+                        "name": "旅遊",
+                        "url": "https://itunes.apple.com/hk/genre/id6003"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/trip-com/id681752345"
+            },
+            {
+                "artistName": "Spotify Ltd.",
+                "id": "324684580",
+                "releaseDate": "2013-04-15",
+                "name": "Spotify - 音樂和 Podcast",
+                "kind": "iosSoftware",
+                "copyright": "© 2008–2019 Spotify Ltd.",
+                "artistId": "324684583",
+                "artistUrl": "https://apps.apple.com/hk/developer/spotify-ltd/id324684583",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/47/b4/c0/47b4c08e-2a17-5b48-1b83-2ac77f6c4ab1/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6011",
+                        "name": "音樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6011"
+                    },
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/spotify-%E9%9F%B3%E6%A8%82%E5%92%8C-podcast/id324684580"
+            },
+            {
+                "artistName": "Hang Seng Bank Limited",
+                "id": "1039256353",
+                "releaseDate": "2015-10-12",
+                "name": "恒生個人流動理財服務",
+                "kind": "iosSoftware",
+                "copyright": "© Hang Seng Bank Ltd.",
+                "artistId": "363702207",
+                "artistUrl": "https://apps.apple.com/hk/developer/hang-seng-bank-limited/id363702207",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/da/6d/4f/da6d4fea-fb4f-7e44-72d4-1303eb8da5c2/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6015",
+                        "name": "理財",
+                        "url": "https://itunes.apple.com/hk/genre/id6015"
+                    },
+                    {
+                        "genreId": "6000",
+                        "name": "商業",
+                        "url": "https://itunes.apple.com/hk/genre/id6000"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E6%81%92%E7%94%9F%E5%80%8B%E4%BA%BA%E6%B5%81%E5%8B%95%E7%90%86%E8%B2%A1%E6%9C%8D%E5%8B%99/id1039256353"
+            },
+            {
+                "artistName": "Google LLC",
+                "id": "507874739",
+                "releaseDate": "2012-06-28",
+                "name": "Google 雲端硬碟",
+                "kind": "iosSoftware",
+                "copyright": "© Google Inc.",
+                "artistId": "281956209",
+                "artistUrl": "https://apps.apple.com/hk/developer/google-llc/id281956209",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/a3/62/4f/a3624fbc-6f28-da42-fc2e-a01a4c93943d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6007",
+                        "name": "生產力工具",
+                        "url": "https://itunes.apple.com/hk/genre/id6007"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/google-%E9%9B%B2%E7%AB%AF%E7%A1%AC%E7%A2%9F/id507874739"
+            },
+            {
+                "artistName": "Bossini Enterprises Limited",
+                "id": "1470193886",
+                "releaseDate": "2019-09-27",
+                "name": "bossini Plus",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 Bossini Enterprises Limited",
+                "artistId": "1470193615",
+                "artistUrl": "https://apps.apple.com/hk/developer/bossini-enterprises-limited/id1470193615",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/4a/1d/ae/4a1daedb-e76b-c82e-f87a-77187346c4ee/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    },
+                    {
+                        "genreId": "6024",
+                        "name": "購物",
+                        "url": "https://itunes.apple.com/hk/genre/id6024"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/bossini-plus/id1470193886"
+            },
+            {
+                "artistName": "Hong Kong Television Network Limited",
+                "id": "910398738",
+                "releaseDate": "2014-11-12",
+                "name": "HKTVmall – 網上購物",
+                "kind": "iosSoftware",
+                "copyright": "© Hong Kong Television Network Limited",
+                "artistId": "447606304",
+                "artistUrl": "https://apps.apple.com/hk/developer/hong-kong-television-network-limited/id447606304",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/36/38/c5/3638c536-40e9-0802-c8b3-fb02930b8ed0/AppIcon-0-1x_U007emarketing-0-0-85-220-0-9.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6024",
+                        "name": "購物",
+                        "url": "https://itunes.apple.com/hk/genre/id6024"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/hktvmall-%E7%B6%B2%E4%B8%8A%E8%B3%BC%E7%89%A9/id910398738"
+            },
+            {
+                "artistName": "LIHKG Limited",
+                "id": "1178373396",
+                "releaseDate": "2016-11-25",
+                "name": "LIHKG 討論區",
+                "kind": "iosSoftware",
+                "copyright": "© LIHKG",
+                "artistId": "1296131997",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://apps.apple.com/hk/developer/lihkg-limited/id1296131997",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/14/ac/7a/14ac7a84-d510-ecac-2579-85f1718a1a0e/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6005",
+                        "name": "社交",
+                        "url": "https://itunes.apple.com/hk/genre/id6005"
+                    },
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/lihkg-%E8%A8%8E%E8%AB%96%E5%8D%80/id1178373396"
+            },
+            {
+                "artistName": "Twitter, Inc.",
+                "id": "333903271",
+                "releaseDate": "2009-10-09",
+                "name": "Twitter",
+                "kind": "iosSoftware",
+                "copyright": "© Twitter, Inc.",
+                "artistId": "296415947",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://apps.apple.com/hk/developer/twitter-inc/id296415947",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/b7/22/00/b72200a4-d901-9c71-c759-2241b14bc3b3/ProductionAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6009",
+                        "name": "新聞",
+                        "url": "https://itunes.apple.com/hk/genre/id6009"
+                    },
+                    {
+                        "genreId": "6005",
+                        "name": "社交",
+                        "url": "https://itunes.apple.com/hk/genre/id6005"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/twitter/id333903271"
+            },
+            {
+                "artistName": "Genie-WorkShop",
+                "id": "1056894785",
+                "releaseDate": "2015-11-14",
+                "name": "CALL4VAN 客貨車平台",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 INTELLIVAN DISPATCH SOLUTIONS LIMITED",
+                "artistId": "878603948",
+                "artistUrl": "https://apps.apple.com/hk/developer/genie-workshop/id878603948",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/5a/30/41/5a3041ab-2549-76a1-8784-474fc0b90042/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6003",
+                        "name": "旅遊",
+                        "url": "https://itunes.apple.com/hk/genre/id6003"
+                    },
+                    {
+                        "genreId": "6002",
+                        "name": "工具程式",
+                        "url": "https://itunes.apple.com/hk/genre/id6002"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/call4van-%E5%AE%A2%E8%B2%A8%E8%BB%8A%E5%B9%B3%E5%8F%B0/id1056894785"
+            },
+            {
+                "artistName": "i-CABLE.com Limited",
+                "id": "1433886832",
+                "releaseDate": "2019-09-28",
+                "name": "有線新聞",
+                "kind": "iosSoftware",
+                "copyright": "© i-CABLE.com Limited",
+                "artistId": "421330305",
+                "artistUrl": "https://apps.apple.com/hk/developer/i-cable-com-limited/id421330305",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/4b/a8/b2/4ba8b21e-81af-a888-25c3-58e694673015/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6009",
+                        "name": "新聞",
+                        "url": "https://itunes.apple.com/hk/genre/id6009"
+                    },
+                    {
+                        "genreId": "6015",
+                        "name": "理財",
+                        "url": "https://itunes.apple.com/hk/genre/id6015"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E6%9C%89%E7%B7%9A%E6%96%B0%E8%81%9E/id1433886832"
+            },
+            {
+                "artistName": "Uber Technologies, Inc.",
+                "id": "368677368",
+                "releaseDate": "2010-05-21",
+                "name": "Uber 優步，全球便捷搭乘",
+                "kind": "iosSoftware",
+                "copyright": "© Uber Technologies Inc.",
+                "artistId": "368677371",
+                "artistUrl": "https://apps.apple.com/hk/developer/uber-technologies-inc/id368677371",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/42/72/a0/4272a055-8752-62f1-1277-d5b859c847b7/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6003",
+                        "name": "旅遊",
+                        "url": "https://itunes.apple.com/hk/genre/id6003"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/uber-%E5%84%AA%E6%AD%A5-%E5%85%A8%E7%90%83%E4%BE%BF%E6%8D%B7%E6%90%AD%E4%B9%98/id368677368"
+            },
+            {
+                "artistName": "TikTok Pte. Ltd.",
+                "id": "1235601864",
+                "releaseDate": "2017-11-26",
+                "name": "TikTok - 有趣的人都在這裡",
+                "kind": "iosSoftware",
+                "copyright": "Copyright © 2017 Bytedance Inc.",
+                "artistId": "1322881000",
+                "artistUrl": "https://apps.apple.com/hk/developer/tiktok-pte-ltd/id1322881000",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/96/ac/aa/96acaa5a-32a0-6a43-d452-c2777b6a685b/AppIcon_TikTok-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    },
+                    {
+                        "genreId": "6008",
+                        "name": "相片與影片",
+                        "url": "https://itunes.apple.com/hk/genre/id6008"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/tiktok-%E6%9C%89%E8%B6%A3%E7%9A%84%E4%BA%BA%E9%83%BD%E5%9C%A8%E9%80%99%E8%A3%A1/id1235601864"
+            },
+            {
+                "artistName": "OpenRice.com",
+                "id": "310663323",
+                "releaseDate": "2009-04-16",
+                "name": "OpenRice《開飯喇！》",
+                "kind": "iosSoftware",
+                "copyright": "© 2018 Openrice Group Inc",
+                "artistId": "310663329",
+                "artistUrl": "https://apps.apple.com/hk/developer/openrice-com/id310663329",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/bf/2a/a4/bf2aa451-6cdf-c24c-4dbf-ffd30997e987/AppIcon-0-1x_U007emarketing-0-0-85-220-0-5.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6023",
+                        "name": "美食佳飲",
+                        "url": "https://itunes.apple.com/hk/genre/id6023"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/openrice-%E9%96%8B%E9%A3%AF%E5%96%87/id310663323"
+            },
+            {
+                "artistName": "HKTaxi App Limited",
+                "id": "660232595",
+                "releaseDate": "2013-06-18",
+                "name": "HKTaxi - 香港Call的士App",
+                "kind": "iosSoftware",
+                "copyright": "© HKTaxi App Limited",
+                "artistId": "969892121",
+                "artistUrl": "https://apps.apple.com/hk/developer/hktaxi-app-limited/id969892121",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/03/d6/ec/03d6ecc4-6b08-b3eb-3c97-603c30ba9da6/AppIcon-0-1x_U007emarketing-0-0-85-220-0-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6003",
+                        "name": "旅遊",
+                        "url": "https://itunes.apple.com/hk/genre/id6003"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/hktaxi-%E9%A6%99%E6%B8%AFcall%E7%9A%84%E5%A3%ABapp/id660232595"
+            },
+            {
+                "artistName": "HABBY",
+                "id": "1474314811",
+                "releaseDate": "2019-09-29",
+                "name": "企鵝島",
+                "kind": "iosSoftware",
+                "copyright": "© Fantome",
+                "artistId": "1422308796",
+                "artistUrl": "https://apps.apple.com/hk/developer/habby/id1422308796",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/bc/4c/79/bc4c7998-0c36-1061-555b-2131237148ee/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7015",
+                        "name": "模擬遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7015"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    },
+                    {
+                        "genreId": "7009",
+                        "name": "家庭遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7009"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E4%BC%81%E9%B5%9D%E5%B3%B6/id1474314811"
+            },
+            {
+                "artistName": "Netflix, Inc.",
+                "id": "363590051",
+                "releaseDate": "2016-01-06",
+                "name": "Netflix",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 Netflix, Inc.",
+                "artistId": "363590054",
+                "artistUrl": "https://apps.apple.com/hk/developer/netflix-inc/id363590054",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/83/69/63/836963a1-cae5-2768-d011-5629ea9724c1/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/netflix/id363590051"
+            },
+            {
+                "artistName": "Ticket To The Moon, Inc.",
+                "id": "1466097469",
+                "releaseDate": "2019-06-18",
+                "name": "Gradient Photo Editor",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 Ticket to the Moon, Inc.",
+                "artistId": "1466097468",
+                "artistUrl": "https://apps.apple.com/hk/developer/ticket-to-the-moon-inc/id1466097468",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/1d/07/c1/1d07c1cf-46b6-0b36-d521-7e5c2997c150/AppIcon-0-0-1x_U007emarketing-0-0-0-2-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6008",
+                        "name": "相片與影片",
+                        "url": "https://itunes.apple.com/hk/genre/id6008"
+                    },
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/gradient-photo-editor/id1466097469"
+            },
+            {
+                "artistName": "Carousell Pte. Ltd.",
+                "id": "548607187",
+                "releaseDate": "2013-06-26",
+                "name": "Carousell",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 Carousell",
+                "artistId": "548607290",
+                "artistUrl": "https://apps.apple.com/hk/developer/carousell-pte-ltd/id548607290",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/b2/f6/00/b2f60067-d513-8b49-7cbb-8d148d77827b/AppIcon.Carousell-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6024",
+                        "name": "購物",
+                        "url": "https://itunes.apple.com/hk/genre/id6024"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/carousell/id548607187"
+            },
+            {
+                "artistName": "I CAN ENTERTAINMENT H.K. CO. LTD",
+                "id": "1462885516",
+                "releaseDate": "2019-10-16",
+                "name": "塞爾之光",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 ICAN Entertainment Co.,Ltd",
+                "artistId": "1455450343",
+                "artistUrl": "https://apps.apple.com/hk/developer/i-can-entertainment-h-k-co-ltd/id1455450343",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/ba/e4/ec/bae4ec63-7143-ae41-6d69-95df1c33a3af/AppIcon-0-1x_U007emarketing-0-85-220-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7014",
+                        "name": "RPG 遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7014"
+                    },
+                    {
+                        "genreId": "7001",
+                        "name": "動作遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7001"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E5%A1%9E%E7%88%BE%E4%B9%8B%E5%85%89/id1462885516"
+            },
+            {
+                "artistName": "Lion Studios",
+                "id": "1474917623",
+                "releaseDate": "2019-09-28",
+                "name": "我做蛋糕超讚！ (Icing on the Cake)",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 Lion Studios",
+                "artistId": "1362220666",
+                "artistUrl": "https://apps.apple.com/hk/developer/lion-studios/id1362220666",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/9d/a8/19/9da81973-e42a-81c3-822e-51600c9168f6/AppIcon-0-1x_U007emarketing-0-85-220-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7015",
+                        "name": "模擬遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7015"
+                    },
+                    {
+                        "genreId": "7003",
+                        "name": "休閒遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7003"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E6%88%91%E5%81%9A%E8%9B%8B%E7%B3%95%E8%B6%85%E8%AE%9A-icing-on-the-cake/id1474917623"
+            },
+            {
+                "artistName": "Uprising Games Ltd.",
+                "id": "1451802899",
+                "releaseDate": "2019-06-01",
+                "name": "SSC 2019",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 Uprising Games Limited",
+                "artistId": "326450720",
+                "artistUrl": "https://apps.apple.com/hk/developer/uprising-games-ltd/id326450720",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/7f/c5/48/7fc54883-bed2-ecad-06c4-dcfc0b708689/AppIcon-0-1x_U007emarketing-0-85-220-5.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7003",
+                        "name": "休閒遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7003"
+                    },
+                    {
+                        "genreId": "7016",
+                        "name": "運動",
+                        "url": "https://itunes.apple.com/hk/genre/id7016"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/ssc-2019/id1451802899"
+            },
+            {
+                "artistName": "MTR Corporation Limited",
+                "id": "369295276",
+                "releaseDate": "2010-05-13",
+                "name": "MTR Mobile",
+                "kind": "iosSoftware",
+                "copyright": "© 2015 MTR Corporation Limited",
+                "artistId": "369295279",
+                "artistUrl": "https://apps.apple.com/hk/developer/mtr-corporation-limited/id369295279",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/60/e5/13/60e513f6-a666-6ebd-9594-bd607a1ebf55/AppIcon-0-1x_U007emarketing-0-0-85-220-0-8.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6003",
+                        "name": "旅遊",
+                        "url": "https://itunes.apple.com/hk/genre/id6003"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/mtr-mobile/id369295276"
+            },
+            {
+                "artistName": "Wildlife Studios",
+                "id": "1346179411",
+                "releaseDate": "2019-10-10",
+                "name": "網球傳奇: 3D 運動 - 多人遊戲",
+                "kind": "iosSoftware",
+                "copyright": "© Fun Games For Free",
+                "artistId": "1479050267",
+                "artistUrl": "https://apps.apple.com/hk/developer/wildlife-studios/id1479050267",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/5f/c2/bf/5fc2bf5e-6c32-e55e-8062-6eb30c55dc44/AppIcon-0-1x_U007emarketing-0-0-85-220-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7016",
+                        "name": "運動",
+                        "url": "https://itunes.apple.com/hk/genre/id7016"
+                    },
+                    {
+                        "genreId": "7001",
+                        "name": "動作遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7001"
+                    },
+                    {
+                        "genreId": "6004",
+                        "name": "運動",
+                        "url": "https://itunes.apple.com/hk/genre/id6004"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E7%B6%B2%E7%90%83%E5%82%B3%E5%A5%87-3d-%E9%81%8B%E5%8B%95-%E5%A4%9A%E4%BA%BA%E9%81%8A%E6%88%B2/id1346179411"
+            },
+            {
+                "artistName": "CITIBANK (HONG KONG) LIMITED",
+                "id": "373717372",
+                "releaseDate": "2010-06-04",
+                "name": "Citibank HK",
+                "kind": "iosSoftware",
+                "copyright": "© Copyright 2014 Citigroup",
+                "artistId": "373717375",
+                "artistUrl": "https://apps.apple.com/hk/developer/citibank-hong-kong-limited/id373717375",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/e8/74/90/e87490f0-63af-4acd-0513-4187ef4dd1a4/AppIcon-0-1x_U007emarketing-0-0-85-220-0-5.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6015",
+                        "name": "理財",
+                        "url": "https://itunes.apple.com/hk/genre/id6015"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/citibank-hk/id373717372"
+            },
+            {
+                "artistName": "Shein Group Ltd",
+                "id": "878577184",
+                "releaseDate": "2014-05-20",
+                "name": "SHEIN購物：時尚女裝服飾品牌",
+                "kind": "iosSoftware",
+                "copyright": "© Sheinside Group Ltd",
+                "artistId": "917101494",
+                "artistUrl": "https://apps.apple.com/hk/developer/shein-group-ltd/id917101494",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/36/96/af/3696afae-1bd5-f0bd-1300-0214c4fc356d/AppIcon-0-1x_U007emarketing-0-0-85-220-0-10.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6024",
+                        "name": "購物",
+                        "url": "https://itunes.apple.com/hk/genre/id6024"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/shein%E8%B3%BC%E7%89%A9-%E6%99%82%E5%B0%9A%E5%A5%B3%E8%A3%9D%E6%9C%8D%E9%A3%BE%E5%93%81%E7%89%8C/id878577184"
+            },
+            {
+                "artistName": "Deliveroo",
+                "id": "1001501844",
+                "releaseDate": "2015-11-26",
+                "name": "戶戶送 Deliveroo",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 Roofoods Limited",
+                "artistId": "1001501843",
+                "artistUrl": "https://apps.apple.com/hk/developer/deliveroo/id1001501843",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/d6/e8/6a/d6e86ae3-004f-3e2d-466b-e94630cb4367/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6023",
+                        "name": "美食佳飲",
+                        "url": "https://itunes.apple.com/hk/genre/id6023"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E6%88%B6%E6%88%B6%E9%80%81-deliveroo/id1001501844"
+            },
+            {
+                "artistName": "AutoNavi Information Technology Co. Ltd.",
+                "id": "461703208",
+                "releaseDate": "2011-09-08",
+                "name": "高德地图-精准地图,导航出行必备",
+                "kind": "iosSoftware",
+                "copyright": "© 2009-2019 AutoNavi Information Technology Co. Ltd.",
+                "artistId": "300625629",
+                "artistUrl": "https://apps.apple.com/hk/developer/autonavi-information-technology-co-ltd/id300625629",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/bf/43/02/bf430280-afff-4323-bd8c-c90bf05f0551/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6010",
+                        "name": "導航",
+                        "url": "https://itunes.apple.com/hk/genre/id6010"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE-%E7%B2%BE%E5%87%86%E5%9C%B0%E5%9B%BE-%E5%AF%BC%E8%88%AA%E5%87%BA%E8%A1%8C%E5%BF%85%E5%A4%87/id461703208"
+            },
+            {
+                "artistName": "LINE Corporation",
+                "id": "443904275",
+                "releaseDate": "2011-06-23",
+                "name": "LINE",
+                "kind": "iosSoftware",
+                "copyright": "© LINE Corporation",
+                "artistId": "359067226",
+                "artistUrl": "https://apps.apple.com/hk/developer/line-corporation/id359067226",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/6d/2b/40/6d2b40a5-ced5-db4f-0d0f-06040b1b79d5/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6005",
+                        "name": "社交",
+                        "url": "https://itunes.apple.com/hk/genre/id6005"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/line/id443904275"
+            },
+            {
+                "artistName": "立場新聞 Stand News",
+                "id": "996362675",
+                "releaseDate": "2015-06-02",
+                "name": "立場新聞",
+                "kind": "iosSoftware",
+                "copyright": "© 2015 立場新聞",
+                "artistId": "996362074",
+                "artistUrl": "https://apps.apple.com/hk/developer/%E7%AB%8B%E5%A0%B4%E6%96%B0%E8%81%9E-stand-news/id996362074",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/4c/1c/67/4c1c676a-ac3f-fc1f-c7c5-fc60ba339ff6/AppIcon-1x_U007emarketing-85-220-3.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6009",
+                        "name": "新聞",
+                        "url": "https://itunes.apple.com/hk/genre/id6009"
+                    },
+                    {
+                        "genreId": "6005",
+                        "name": "社交",
+                        "url": "https://itunes.apple.com/hk/genre/id6005"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E7%AB%8B%E5%A0%B4%E6%96%B0%E8%81%9E/id996362675"
+            },
+            {
+                "artistName": "Moovit App Global LTD",
+                "id": "498477945",
+                "releaseDate": "2012-04-27",
+                "name": "Moovit: 香港巴士鐵路線搜尋",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 Moovit",
+                "artistId": "498477948",
+                "artistUrl": "https://apps.apple.com/hk/developer/moovit-app-global-ltd/id498477948",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/39/69/1e/39691eea-9e39-ca95-faa3-2137d8bb6dc6/AppIcon-0-1x_U007emarketing-0-0-85-220-0-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6010",
+                        "name": "導航",
+                        "url": "https://itunes.apple.com/hk/genre/id6010"
+                    },
+                    {
+                        "genreId": "6003",
+                        "name": "旅遊",
+                        "url": "https://itunes.apple.com/hk/genre/id6003"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/moovit-%E9%A6%99%E6%B8%AF%E5%B7%B4%E5%A3%AB%E9%90%B5%E8%B7%AF%E7%B7%9A%E6%90%9C%E5%B0%8B/id498477945"
+            },
+            {
+                "artistName": "株式会社あきんどスシロー",
+                "id": "1467855418",
+                "releaseDate": "2019-09-25",
+                "name": "香港壽司郎",
+                "kind": "iosSoftware",
+                "copyright": "© AKINDO SUSHIRO CO.,LTD.",
+                "artistId": "551682020",
+                "artistUrl": "https://apps.apple.com/hk/developer/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%82%E3%81%8D%E3%82%93%E3%81%A9%E3%82%B9%E3%82%B7%E3%83%AD%E3%83%BC/id551682020",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/a8/02/b8/a802b8ef-2868-ab91-eb0c-8597f2563641/AppIconHk-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6023",
+                        "name": "美食佳飲",
+                        "url": "https://itunes.apple.com/hk/genre/id6023"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E9%A6%99%E6%B8%AF%E5%A3%BD%E5%8F%B8%E9%83%8E/id1467855418"
+            },
+            {
+                "artistName": "Nexters Global LTD",
+                "id": "1158967485",
+                "releaseDate": "2017-03-31",
+                "name": "Hero Wars - Fantasy World",
+                "kind": "iosSoftware",
+                "copyright": "© NEXTERS GLOBAL LTD",
+                "artistId": "660706304",
+                "artistUrl": "https://apps.apple.com/hk/developer/nexters-global-ltd/id660706304",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/91/f3/8c/91f38ca4-d88f-f970-1513-501e6c2d3858/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    },
+                    {
+                        "genreId": "7002",
+                        "name": "冒險遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7002"
+                    },
+                    {
+                        "genreId": "7014",
+                        "name": "RPG 遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7014"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/hero-wars-fantasy-world/id1158967485"
+            },
+            {
+                "artistName": "PCCW Media Limited",
+                "id": "480933058",
+                "releaseDate": "2012-01-10",
+                "name": "Now 新聞 - 24小時直播",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 PCCW Media Limited",
+                "artistId": "373739147",
+                "artistUrl": "https://apps.apple.com/hk/developer/pccw-media-limited/id373739147",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/4c/66/16/4c661668-611e-dfd8-887f-23410bb8c1f2/AppIcon-0-1x_U007emarketing-0-85-220-0-3.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6009",
+                        "name": "新聞",
+                        "url": "https://itunes.apple.com/hk/genre/id6009"
+                    },
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/now-%E6%96%B0%E8%81%9E-24%E5%B0%8F%E6%99%82%E7%9B%B4%E6%92%AD/id480933058"
+            },
+            {
+                "artistName": "Standard Chartered Bank",
+                "id": "445795688",
+                "releaseDate": "2011-07-07",
+                "name": "SC Mobile Hong Kong",
+                "kind": "iosSoftware",
+                "copyright": "© 2014 Standard Chartered Bank",
+                "artistId": "367337301",
+                "artistUrl": "https://apps.apple.com/hk/developer/standard-chartered-bank/id367337301",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/56/5e/73/565e73f3-8b28-70a0-1a2d-1c29ab033d93/HKIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6015",
+                        "name": "理財",
+                        "url": "https://itunes.apple.com/hk/genre/id6015"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/sc-mobile-hong-kong/id445795688"
+            },
+            {
+                "artistName": "Google LLC",
+                "id": "842842640",
+                "releaseDate": "2014-04-30",
+                "name": "Google 文件：同步處理、編輯、共用",
+                "kind": "iosSoftware",
+                "copyright": "© Google Inc.",
+                "artistId": "281956209",
+                "artistUrl": "https://apps.apple.com/hk/developer/google-llc/id281956209",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/6f/3c/18/6f3c1839-aaf7-3450-8444-f24dacbd5fed/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6007",
+                        "name": "生產力工具",
+                        "url": "https://itunes.apple.com/hk/genre/id6007"
+                    },
+                    {
+                        "genreId": "6000",
+                        "name": "商業",
+                        "url": "https://itunes.apple.com/hk/genre/id6000"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/google-%E6%96%87%E4%BB%B6-%E5%90%8C%E6%AD%A5%E8%99%95%E7%90%86-%E7%B7%A8%E8%BC%AF-%E5%85%B1%E7%94%A8/id842842640"
+            },
+            {
+                "artistName": "Expedia, Inc.",
+                "id": "427916203",
+                "releaseDate": "2011-04-07",
+                "name": "Expedia 智遊網酒店、機票、當地玩樂一站式旅遊預訂平台",
+                "kind": "iosSoftware",
+                "copyright": "© Copyright 2012-2019 Expedia Group. All rights reserved.",
+                "artistId": "314063735",
+                "artistUrl": "https://apps.apple.com/hk/developer/expedia-inc/id314063735",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/cc/10/63/cc1063cd-e1e1-0859-e9d6-efb0d323498e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6003",
+                        "name": "旅遊",
+                        "url": "https://itunes.apple.com/hk/genre/id6003"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/expedia-%E6%99%BA%E9%81%8A%E7%B6%B2%E9%85%92%E5%BA%97-%E6%A9%9F%E7%A5%A8-%E7%95%B6%E5%9C%B0%E7%8E%A9%E6%A8%82%E4%B8%80%E7%AB%99%E5%BC%8F%E6%97%85%E9%81%8A%E9%A0%90%E8%A8%82%E5%B9%B3%E5%8F%B0/id427916203"
+            },
+            {
+                "artistName": "MHK Restaurants Limited",
+                "id": "1316860583",
+                "releaseDate": "2017-11-29",
+                "name": "麥當勞® App",
+                "kind": "iosSoftware",
+                "copyright": "© MHK Restaurants Limited",
+                "artistId": "532500645",
+                "artistUrl": "https://apps.apple.com/hk/developer/mhk-restaurants-limited/id532500645",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/08/e4/f7/08e4f78a-6133-9a1a-c1aa-3cc977e07d83/AppIcon-0-1x_U007emarketing-0-85-220-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6023",
+                        "name": "美食佳飲",
+                        "url": "https://itunes.apple.com/hk/genre/id6023"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E9%BA%A5%E7%95%B6%E5%8B%9E-app/id1316860583"
+            },
+            {
+                "artistName": "Sky Entertainment Network Limited",
+                "id": "1471488033",
+                "releaseDate": "2019-10-13",
+                "name": "三國殺名將傳",
+                "kind": "iosSoftware",
+                "copyright": "© 廣州天遊網絡科技有限公司",
+                "artistId": "1439530152",
+                "artistUrl": "https://apps.apple.com/hk/developer/sky-entertainment-network-limited/id1439530152",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/0b/e3/7e/0be37ef2-ef57-772a-a3c2-9cbe8ed4dad5/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-85-220.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7005",
+                        "name": "卡牌遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7005"
+                    },
+                    {
+                        "genreId": "7014",
+                        "name": "RPG 遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7014"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E4%B8%89%E5%9C%8B%E6%AE%BA%E5%90%8D%E5%B0%87%E5%82%B3/id1471488033"
+            },
+            {
+                "artistName": "Coolcat",
+                "id": "1457793337",
+                "releaseDate": "2019-04-18",
+                "name": "SmartPics – 卡通漫畫特效 \u0026 智能摳圖神器",
+                "kind": "iosSoftware",
+                "copyright": "© Coolcat Mobile Limited",
+                "artistId": "1481173422",
+                "artistUrl": "https://apps.apple.com/hk/developer/coolcat/id1481173422",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/d9/8c/86/d98c86ba-8b8d-4598-9448-e445904c3cac/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6008",
+                        "name": "相片與影片",
+                        "url": "https://itunes.apple.com/hk/genre/id6008"
+                    },
+                    {
+                        "genreId": "6002",
+                        "name": "工具程式",
+                        "url": "https://itunes.apple.com/hk/genre/id6002"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/smartpics-%E5%8D%A1%E9%80%9A%E6%BC%AB%E7%95%AB%E7%89%B9%E6%95%88-%E6%99%BA%E8%83%BD%E6%91%B3%E5%9C%96%E7%A5%9E%E5%99%A8/id1457793337"
+            },
+            {
+                "artistName": "Hong Kong Economic Times Limited",
+                "id": "511267431",
+                "releaseDate": "2012-05-10",
+                "name": "U Lifestyle：最Hit優惠及生活資訊平台",
+                "kind": "iosSoftware",
+                "copyright": "© Hong Kong Economic Times Limited",
+                "artistId": "368199907",
+                "artistUrl": "https://apps.apple.com/hk/developer/hong-kong-economic-times-limited/id368199907",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/33/7f/48/337f481f-31d3-7759-ae54-cf933ae9b98d/ULAppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    },
+                    {
+                        "genreId": "6009",
+                        "name": "新聞",
+                        "url": "https://itunes.apple.com/hk/genre/id6009"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/u-lifestyle-%E6%9C%80hit%E5%84%AA%E6%83%A0%E5%8F%8A%E7%94%9F%E6%B4%BB%E8%B3%87%E8%A8%8A%E5%B9%B3%E5%8F%B0/id511267431"
+            },
+            {
+                "artistName": "Ocean Park Hong Kong",
+                "id": "554122091",
+                "releaseDate": "2012-09-25",
+                "name": "Ocean Park Hong Kong",
+                "kind": "iosSoftware",
+                "copyright": "© Ocean Park Hong Kong",
+                "artistId": "394882725",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://apps.apple.com/hk/developer/ocean-park-hong-kong/id394882725",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/4e/c8/1b/4ec81baf-4122-7045-5f4c-836b7f18e3e4/AppIcon-0-1x_U007emarketing-0-85-220-5.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    },
+                    {
+                        "genreId": "6003",
+                        "name": "旅遊",
+                        "url": "https://itunes.apple.com/hk/genre/id6003"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/ocean-park-hong-kong/id554122091"
+            },
+            {
+                "artistName": "MOOV (HONG KONG) LIMITED",
+                "id": "436310157",
+                "releaseDate": "2011-05-12",
+                "name": "MOOV 音樂",
+                "kind": "iosSoftware",
+                "copyright": "© 2015 PCCW Media Limited",
+                "artistId": "1343059211",
+                "artistUrl": "https://apps.apple.com/hk/developer/moov-hong-kong-limited/id1343059211",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/26/65/23/266523a7-0774-1d1c-5811-1cc045620503/AppIcon-0-0-1x_U007emarketing-0-0-7-0-0-85-220.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6011",
+                        "name": "音樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6011"
+                    },
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/moov-%E9%9F%B3%E6%A8%82/id436310157"
+            },
+            {
+                "artistName": "Commercial Radio Interactive",
+                "id": "463715309",
+                "releaseDate": "2011-10-03",
+                "name": "Hong Kong Toolbar",
+                "kind": "iosSoftware",
+                "copyright": "© 2016 Commercial Radio Productions Ltd.",
+                "artistId": "338703235",
+                "artistUrl": "https://apps.apple.com/hk/developer/commercial-radio-interactive/id338703235",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/57/67/25/5767257d-8627-5571-ffb5-9d2bcc8230ae/AppIcon-0-1x_U007emarketing-0-0-85-220-2.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    },
+                    {
+                        "genreId": "6009",
+                        "name": "新聞",
+                        "url": "https://itunes.apple.com/hk/genre/id6009"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/hong-kong-toolbar/id463715309"
+            },
+            {
+                "artistName": "A. S. Watson \u0026 Company, Limited",
+                "id": "1230818544",
+                "releaseDate": "2017-06-23",
+                "name": "MoneyBack",
+                "kind": "iosSoftware",
+                "copyright": "© A. S. Watson MoneyBack (HK) Limited",
+                "artistId": "1072296747",
+                "artistUrl": "https://apps.apple.com/hk/developer/a-s-watson-company-limited/id1072296747",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/dc/7e/32/dc7e325f-b2d8-0418-ed97-b8d5699db960/AppIcon-0-1x_U007emarketing-0-85-220-0-6.jpeg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6024",
+                        "name": "購物",
+                        "url": "https://itunes.apple.com/hk/genre/id6024"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/moneyback/id1230818544"
+            },
+            {
+                "artistName": "Agoda.com",
+                "id": "440676901",
+                "releaseDate": "2011-06-07",
+                "name": "Agoda - 國內外訂房優惠",
+                "kind": "iosSoftware",
+                "copyright": "© 2005 – 2018 Agoda Company Pte. Ltd., All Rights Reserved",
+                "artistId": "440676905",
+                "artistUrl": "https://apps.apple.com/hk/developer/agoda-com/id440676905",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/97/c3/4a/97c34ab0-389a-ff6d-af6b-463409384d87/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6003",
+                        "name": "旅遊",
+                        "url": "https://itunes.apple.com/hk/genre/id6003"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/agoda-%E5%9C%8B%E5%85%A7%E5%A4%96%E8%A8%82%E6%88%BF%E5%84%AA%E6%83%A0/id440676901"
+            },
+            {
+                "artistName": "Alipay (Hangzhou) Technology Co., Ltd.",
+                "id": "333206289",
+                "releaseDate": "2009-10-15",
+                "name": "支付宝 - 让生活更简单",
+                "kind": "iosSoftware",
+                "copyright": "© Ant Financial.All rights reserved.",
+                "artistId": "333206292",
+                "artistUrl": "https://apps.apple.com/hk/developer/alipay-hangzhou-technology-co-ltd/id333206292",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/07/cc/dd/07ccddbe-d23b-28df-77f9-51cc270b08af/AppIcon-0-1x_U007emarketing-0-0-85-220-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    },
+                    {
+                        "genreId": "6015",
+                        "name": "理財",
+                        "url": "https://itunes.apple.com/hk/genre/id6015"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E6%94%AF%E4%BB%98%E5%AE%9D-%E8%AE%A9%E7%94%9F%E6%B4%BB%E6%9B%B4%E7%AE%80%E5%8D%95/id333206289"
+            },
+            {
+                "artistName": "Boltrend Games",
+                "id": "1474732801",
+                "releaseDate": "2019-10-13",
+                "name": "夢幻之星：伊多拉傳說",
+                "kind": "iosSoftware",
+                "copyright": "Copyright © Boltrend All Rights Reserved",
+                "artistId": "1453656318",
+                "artistUrl": "https://apps.apple.com/hk/developer/boltrend-games/id1453656318",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/75/3c/5c/753c5c04-b7f2-5c14-2db0-e4c557c639a6/AppIcon-0-0-1x_U007emarketing-0-0-0-9-85-220.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7005",
+                        "name": "卡牌遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7005"
+                    },
+                    {
+                        "genreId": "7014",
+                        "name": "RPG 遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7014"
+                    },
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E5%A4%A2%E5%B9%BB%E4%B9%8B%E6%98%9F-%E4%BC%8A%E5%A4%9A%E6%8B%89%E5%82%B3%E8%AA%AA/id1474732801"
+            },
+            {
+                "artistName": "China Mobile Hong Kong Company Limited",
+                "id": "483513425",
+                "releaseDate": "2011-12-12",
+                "name": "MyLink - 連接．生活",
+                "kind": "iosSoftware",
+                "copyright": "© China Mobile Hong Kong Co. Ltd.",
+                "artistId": "416521538",
+                "artistUrl": "https://apps.apple.com/hk/developer/china-mobile-hong-kong-company-limited/id416521538",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/8f/7a/09/8f7a0951-11fa-fc24-8b62-62ecb1afbf34/AppIcon-0-1x_U007emarketing-0-0-85-220-0-9.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    },
+                    {
+                        "genreId": "6007",
+                        "name": "生產力工具",
+                        "url": "https://itunes.apple.com/hk/genre/id6007"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/mylink-%E9%80%A3%E6%8E%A5-%E7%94%9F%E6%B4%BB/id483513425"
+            },
+            {
+                "artistName": "Adobe Inc.",
+                "id": "878783582",
+                "releaseDate": "2014-06-22",
+                "name": "Adobe Lightroom – 照片編輯, 修圖APP",
+                "kind": "iosSoftware",
+                "copyright": "© Adobe Inc.",
+                "artistId": "331646274",
+                "artistUrl": "https://apps.apple.com/hk/developer/adobe-inc/id331646274",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/f9/b3/dd/f9b3dd3e-d3da-bbec-b962-0aed0f5e23fa/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6008",
+                        "name": "相片與影片",
+                        "url": "https://itunes.apple.com/hk/genre/id6008"
+                    },
+                    {
+                        "genreId": "6007",
+                        "name": "生產力工具",
+                        "url": "https://itunes.apple.com/hk/genre/id6007"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/adobe-lightroom-%E7%85%A7%E7%89%87%E7%B7%A8%E8%BC%AF-%E4%BF%AE%E5%9C%96app/id878783582"
+            },
+            {
+                "artistName": "INTSIG Information Co.,Ltd",
+                "id": "388627783",
+                "releaseDate": "2010-08-28",
+                "name": "掃描全能王CamScanner|文字識別翻譯",
+                "kind": "iosSoftware",
+                "copyright": "© INTSIG Information Co., Ltd",
+                "artistId": "344077850",
+                "artistUrl": "https://apps.apple.com/hk/developer/intsig-information-co-ltd/id344077850",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/f7/49/21/f74921d7-195a-4600-dd2a-d479c28fd6b7/AppIconLite-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6007",
+                        "name": "生產力工具",
+                        "url": "https://itunes.apple.com/hk/genre/id6007"
+                    },
+                    {
+                        "genreId": "6000",
+                        "name": "商業",
+                        "url": "https://itunes.apple.com/hk/genre/id6000"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E6%8E%83%E6%8F%8F%E5%85%A8%E8%83%BD%E7%8E%8Bcamscanner-%E6%96%87%E5%AD%97%E8%AD%98%E5%88%A5%E7%BF%BB%E8%AD%AF/id388627783"
+            },
+            {
+                "artistName": "Kotech Services Co.",
+                "id": "382024751",
+                "releaseDate": "2010-07-17",
+                "name": "五色學倉頡 ONLINE",
+                "kind": "iosSoftware",
+                "copyright": "© Kotech Services Co.",
+                "artistId": "336908554",
+                "artistUrl": "https://apps.apple.com/hk/developer/kotech-services-co/id336908554",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/77/c3/f5/77c3f500-a8e9-2f74-9e41-3617b489685e/AppIcon-0-1x_U007emarketing-0-0-85-220-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6017",
+                        "name": "教育",
+                        "url": "https://itunes.apple.com/hk/genre/id6017"
+                    },
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E4%BA%94%E8%89%B2%E5%AD%B8%E5%80%89%E9%A0%A1-online/id382024751"
+            },
+            {
+                "artistName": "上海寻梦信息技术有限公司",
+                "id": "1044283059",
+                "releaseDate": "2015-10-29",
+                "name": "拼多多 - 3亿人都在拼的购物App",
+                "kind": "iosSoftware",
+                "copyright": "© 2016 Xunmeng Inc.",
+                "artistId": "1044283058",
+                "artistUrl": "https://apps.apple.com/hk/developer/%E4%B8%8A%E6%B5%B7%E5%AF%BB%E6%A2%A6%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/id1044283058",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/9b/f6/b1/9bf6b181-5728-b1ef-346c-830439c06f60/AppIcon-0-1x_U007emarketing-0-0-sRGB-85-220-10.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6024",
+                        "name": "購物",
+                        "url": "https://itunes.apple.com/hk/genre/id6024"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E6%8B%BC%E5%A4%9A%E5%A4%9A-3%E4%BA%BF%E4%BA%BA%E9%83%BD%E5%9C%A8%E6%8B%BC%E7%9A%84%E8%B4%AD%E7%89%A9app/id1044283059"
+            },
+            {
+                "artistName": "Hong Kong Wing On Travel Service Limited",
+                "id": "888640962",
+                "releaseDate": "2014-07-23",
+                "name": "永安旅遊 - 機票、酒店及旅行團",
+                "kind": "iosSoftware",
+                "copyright": "© Hong Kong Wing On Travel Service Limited",
+                "artistId": "888640965",
+                "artistUrl": "https://apps.apple.com/hk/developer/hong-kong-wing-on-travel-service-limited/id888640965",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/a0/a7/11/a0a711e7-b3bb-2363-bbcc-e21fae429ac1/AppIcon-0-1x_U007emarketing-0-0-85-220-0-5.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6003",
+                        "name": "旅遊",
+                        "url": "https://itunes.apple.com/hk/genre/id6003"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E6%B0%B8%E5%AE%89%E6%97%85%E9%81%8A-%E6%A9%9F%E7%A5%A8-%E9%85%92%E5%BA%97%E5%8F%8A%E6%97%85%E8%A1%8C%E5%9C%98/id888640962"
+            },
+            {
+                "artistName": "HABBY",
+                "id": "1453651052",
+                "releaseDate": "2019-05-13",
+                "name": "弓箭傳說",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 Habby.fun",
+                "artistId": "1422308796",
+                "artistUrl": "https://apps.apple.com/hk/developer/habby/id1422308796",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/18/4b/e9/184be98e-e660-49ad-c6eb-d5fb3ce835b1/AppIcon-0-1x_U007emarketing-0-85-220-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7003",
+                        "name": "休閒遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7003"
+                    },
+                    {
+                        "genreId": "7001",
+                        "name": "動作遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id7001"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E5%BC%93%E7%AE%AD%E5%82%B3%E8%AA%AA/id1453651052"
+            },
+            {
+                "artistName": "UNIQLO CO., LTD.",
+                "id": "848062398",
+                "releaseDate": "2014-11-18",
+                "name": "UNIQLO Hong Kong \u0026 Macau",
+                "kind": "iosSoftware",
+                "copyright": "© UNIQLO CO., LTD. All Rights Reserved.",
+                "artistId": "292713160",
+                "artistUrl": "https://apps.apple.com/hk/developer/uniqlo-co-ltd/id292713160",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/50/44/37/50443740-9f8f-286f-0afa-2c7011ad31a4/mzl.qlhxsknq.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/uniqlo-hong-kong-macau/id848062398"
+            },
+            {
+                "artistName": "HSBC Global Services (UK) Limited",
+                "id": "1315948639",
+                "releaseDate": "2017-12-07",
+                "name": "HSBC HK Reward+",
+                "kind": "iosSoftware",
+                "copyright": "© The Hongkong and Shanghai Banking Corporation Limited 2019",
+                "artistId": "1112071557",
+                "artistUrl": "https://apps.apple.com/hk/developer/hsbc-global-services-uk-limited/id1112071557",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/0e/6f/8f/0e6f8f3e-35f2-c24a-ad0f-508a0444bdc0/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6015",
+                        "name": "理財",
+                        "url": "https://itunes.apple.com/hk/genre/id6015"
+                    },
+                    {
+                        "genreId": "6000",
+                        "name": "商業",
+                        "url": "https://itunes.apple.com/hk/genre/id6000"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/hsbc-hk-reward/id1315948639"
+            },
+            {
+                "artistName": "Grab.com",
+                "id": "647268330",
+                "releaseDate": "2013-05-15",
+                "name": "Grab App",
+                "kind": "iosSoftware",
+                "copyright": "© GrabTaxi Holdings",
+                "artistId": "1136548164",
+                "artistUrl": "https://apps.apple.com/hk/developer/grab-com/id1136548164",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/a0/b4/64/a0b46495-3a1d-dfaa-f44e-9335c2ba9c51/GrabIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-4.jpeg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6003",
+                        "name": "旅遊",
+                        "url": "https://itunes.apple.com/hk/genre/id6003"
+                    },
+                    {
+                        "genreId": "6023",
+                        "name": "美食佳飲",
+                        "url": "https://itunes.apple.com/hk/genre/id6023"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/grab-app/id647268330"
+            },
+            {
+                "artistName": "Google LLC",
+                "id": "842849113",
+                "releaseDate": "2014-04-30",
+                "name": "Google 試算表",
+                "kind": "iosSoftware",
+                "copyright": "© Google Inc.",
+                "artistId": "281956209",
+                "artistUrl": "https://apps.apple.com/hk/developer/google-llc/id281956209",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/3c/4f/10/3c4f1089-39ec-6a4f-b4a0-8507008abbf2/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6007",
+                        "name": "生產力工具",
+                        "url": "https://itunes.apple.com/hk/genre/id6007"
+                    },
+                    {
+                        "genreId": "6000",
+                        "name": "商業",
+                        "url": "https://itunes.apple.com/hk/genre/id6000"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/google-%E8%A9%A6%E7%AE%97%E8%A1%A8/id842849113"
+            },
+            {
+                "artistName": "Microsoft Corporation",
+                "id": "951937596",
+                "releaseDate": "2015-01-29",
+                "name": "Microsoft Outlook",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 Microsoft Corporation. All rights reserved.",
+                "artistId": "298856275",
+                "artistUrl": "https://apps.apple.com/hk/developer/microsoft-corporation/id298856275",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/b4/4d/a3/b44da356-fdda-0fa6-947f-74b790851531/AppIcon-outlook.prod-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6007",
+                        "name": "生產力工具",
+                        "url": "https://itunes.apple.com/hk/genre/id6007"
+                    },
+                    {
+                        "genreId": "6000",
+                        "name": "商業",
+                        "url": "https://itunes.apple.com/hk/genre/id6000"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/microsoft-outlook/id951937596"
+            },
+            {
+                "artistName": "KKday",
+                "id": "1248267356",
+                "releaseDate": "2017-09-24",
+                "name": "KKday: 全球旅遊體驗行程預訂。",
+                "kind": "iosSoftware",
+                "copyright": "Copyright © 2018 KKday Inc. All rights reserved.",
+                "artistId": "1227613053",
+                "artistUrl": "https://apps.apple.com/hk/developer/kkday/id1227613053",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/17/69/b5/1769b5ce-953b-5a43-05e5-2900f5303865/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6003",
+                        "name": "旅遊",
+                        "url": "https://itunes.apple.com/hk/genre/id6003"
+                    },
+                    {
+                        "genreId": "6024",
+                        "name": "購物",
+                        "url": "https://itunes.apple.com/hk/genre/id6024"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/kkday-%E5%85%A8%E7%90%83%E6%97%85%E9%81%8A%E9%AB%94%E9%A9%97%E8%A1%8C%E7%A8%8B%E9%A0%90%E8%A8%82/id1248267356"
+            },
+            {
+                "artistName": "Microsoft Corporation",
+                "id": "586447913",
+                "releaseDate": "2014-03-27",
+                "name": "Microsoft Word",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 Microsoft Corporation. All rights reserved.",
+                "artistId": "298856275",
+                "artistUrl": "https://apps.apple.com/hk/developer/microsoft-corporation/id298856275",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/9b/46/cd/9b46cd0d-0730-cc52-d1f7-ea66c1caf880/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6007",
+                        "name": "生產力工具",
+                        "url": "https://itunes.apple.com/hk/genre/id6007"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/microsoft-word/id586447913"
+            }
+        ]
+    }
+}
