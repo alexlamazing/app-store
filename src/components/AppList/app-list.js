@@ -13,7 +13,7 @@ import { fetchFreeApp, filterFreeApp } from "./actions";
 import "./app-list.scss";
 
 function AppList(props) {
-    const { apps, appsFiltered, isFetching, keyword, fetchFreeApp, filterFreeApp } = props;
+    const { apps, appsFiltered, error, isFetching, keyword, fetchFreeApp, filterFreeApp } = props;
     React.useEffect(() => {
         fetchFreeApp();
     }, []);
@@ -24,7 +24,7 @@ function AppList(props) {
         <div className="app-list">
             <div className="content">
                 {
-                    isFetching && (
+                    isFetching ? (
                         <ul>
                             <ListItemSkeleton />
                             <ListItemSkeleton />
@@ -37,6 +37,18 @@ function AppList(props) {
                             <ListItemSkeleton />
                             <ListItemSkeleton />
                         </ul>
+                    ) : (
+                        error.length > 0 ? (
+                            <div className="message">
+                                {error}
+                            </div>
+                        ) : (
+                            keyword.length > 0 &&
+                            appsFiltered.length === 0 &&
+                            <div className="message">
+                                沒有相關結果
+                            </div>
+                        )
                     )
                 }
                 <ul>
@@ -56,13 +68,14 @@ AppList.propTypes = {
     appsFiltered: PropTypes.array,
     isFetching: PropTypes.bool,
     fetchFreeApp: PropTypes.func,
-    keyword: PropTypes.string
+    keyword: PropTypes.string,
+    error: PropTypes.string
 }
 
 const mapStateToProps = state => {
     const { keyword } = state;
-    const { apps, appsFiltered, isFetching } = state.topFree;
-    return { apps, appsFiltered, isFetching, keyword }
+    const { apps, appsFiltered, error, isFetching } = state.topFree;
+    return { apps, appsFiltered, error, isFetching, keyword }
 }
 
 export default connect(mapStateToProps, {

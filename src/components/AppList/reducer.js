@@ -74,10 +74,20 @@ function appsFiltered(state = [], action) {
     }
 }
 
+function error(state = "", action) {
+    switch (action.type) {
+        case FETCH_APP_LISTING_FAILURE:
+            return "無法獲取資料，請檢查你的網絡或稍後重試";
+        default:
+            return state;
+    }
+}
+
 export default combineReducers({
     apps,
     appsFiltered,
     isFetching,
     page,
-    loadedPages
+    loadedPages,
+    error
 });

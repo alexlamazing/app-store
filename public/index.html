@@ -7,9 +7,14 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Browse different Apps"
     />
-    <link rel="apple-touch-icon" href="logo192.png" />
+    <meta property="og:title" content="My App Store">
+    <meta property="og:description" content="Browse different Apps">
+    <link rel="apple-touch-icon" href="apple-touch-icon-512x512.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="My App Store">
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -25,11 +30,34 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,400,500,700&display=swap&subset=chinese-traditional" rel="stylesheet">
-    <title>React App</title>
+    <title>My App Store</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "url": "https://my-app-store-5222f.web.app/",
+        "logo": "https://my-app-store-5222f.web.app/logo512.png"
+        "name": "My App Store",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+852-23456789",
+          "contactType": "Customer service"
+        }
+      }
+      </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <!-- Register Service Worker -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js').catch(function (ex) {
+          console.warn(ex);
+          console.warn('(This warning can be safely ignored outside of the production build.)');
+        });
+      }
+    </script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

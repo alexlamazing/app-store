@@ -12,7 +12,15 @@ import { fetchGrossingApp, filterRecommendApp } from "./actions";
 import "./app-recommend.scss";
 
 function AppRecommend(props) {
-    const { apps, appsFiltered, fetchGrossingApp, filterRecommendApp, isFetching, keyword } = props;
+    const {
+        apps,
+        appsFiltered,
+        error,
+        fetchGrossingApp,
+        filterRecommendApp,
+        isFetching,
+        keyword
+    } = props;
 
     React.useEffect(() => {
         fetchGrossingApp();
@@ -27,7 +35,7 @@ function AppRecommend(props) {
             <div className="content">
                 <h1>推介</h1>
                 {
-                    isFetching && (
+                    isFetching ? (
                         <ul>
                             <ListItemSkeleton />
                             <ListItemSkeleton />
@@ -40,6 +48,19 @@ function AppRecommend(props) {
                             <ListItemSkeleton />
                             <ListItemSkeleton />
                         </ul>
+                    ) : (
+                        error.length > 0 ? (
+                            <div className="message">
+                                {error}
+                            </div>
+                        ) : (
+                            keyword.length > 0 &&
+                            appsFiltered.length === 0 &&
+                            <div className="message">
+                                沒有相關結果
+                            </div>
+                        )
+                        
                     )
                 }
                 <ul>
@@ -60,11 +81,12 @@ const mapStateToProps = state => {
         topGrossing: {
             apps,
             appsFiltered,
+            error,
             isFetching
         }
     } = state;
     return {
-        apps, appsFiltered, isFetching, keyword
+        apps, appsFiltered, error, isFetching, keyword
     }
 }
 

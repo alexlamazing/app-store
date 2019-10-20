@@ -13,22 +13,24 @@ import "./app-list.scss";
 function ListItem(props) {
     const { app, index, fetchDetail } = props;
     React.useEffect(() => {
-        fetchDetail(app.id);
-    }, [app.id, fetchDetail]);
+        if (app.id && !app.ratingCount) {
+            fetchDetail(app.id);
+        }
+    }, [app.id]);
     return (
         <li className="list-item">
-            <div className="rank">{index}</div>
+            <div className="rank">{index || ""}</div>
             <div className="app">
-                <img className="icon" src={app.artworkUrl100} alt="" />
+                <img className="icon" src={app.artworkUrl100 || ""} alt={app.name || ""} />
                 <div className="detail">
-                    <span className="name">{app.name}</span>
-                    <span className="category">{app.genres.map(category => category.name)[0]}</span>
+                    <span className="name">{app.name || ""}</span>
+                    <span className="category">{ app.genres && app.genres.length > 0 ? app.genres.map(category => category.name)[0] : ""}</span>
                     <div className="rating">
-                        <span className="count">{`(${app.ratingCount || 0})`}</span>
+                        <span className="count">{`(${app.ratingCount || "--"})`}</span>
                     </div>
                 </div>
             </div>
-            <a href={app.url} target="_blank" rel="noopener noreferrer" />
+            <a href={app.url || ""} target="_blank" rel="noopener noreferrer" />
         </li>
     );
 }
