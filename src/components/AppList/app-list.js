@@ -30,13 +30,6 @@ function AppList(props) {
     React.useEffect(() => {
         fetchFreeApp();
     }, []);
-
-    React.useEffect(() => {
-        window.addEventListener("scroll", handleScroll);
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, [page, isLoadingMore, loadMore]);
     
     // check if the app contains the keyword
     const containKeyword = (app) => {
@@ -82,7 +75,14 @@ function AppList(props) {
         if (window.innerHeight + document.documentElement.scrollTop >= height - 0) {
             loadMore(page + 1);
         }
-    }, [page, isLoadingMore, loadMore]);
+    }, [page, filteredAppsPages, isLoadingMore, loadMore]);
+
+    React.useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, [page, filteredAppsPages, isLoadingMore, loadMore]);
 
     return (
         <div className="app-list">
