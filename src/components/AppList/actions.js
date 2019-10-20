@@ -5,7 +5,9 @@ import {
     FETCH_APP_LISTING_FAILURE,
     SET_APP_LISTING_PAGE,
     UPDATE_APP_LISTING,
-    UPDATE_APP_LISTING_FILTERED
+    UPDATE_APP_LISTING_FILTERED,
+    APP_LISTING_LOAD_MORE_START,
+    APP_LISTING_LOAD_MORE_SUCCESS
 } from "./action-types";
 
 import ApiRoute from "../../api/api-route";
@@ -32,6 +34,29 @@ export const fetchFreeApp = () => async (dispatch, getState) => {
         })
     }
 
+};
+
+export const loadMore = page => async (dispatch, getState) => {
+    dispatch({
+        type: APP_LISTING_LOAD_MORE_START
+    });
+
+    setTimeout(function(){
+        dispatch({
+            type: SET_APP_LISTING_PAGE,
+            value: page
+        });
+        dispatch({
+            type: APP_LISTING_LOAD_MORE_SUCCESS
+        });
+    }, 1000);
+};
+
+export const setPage = (page) => async (dispatch, getState) => {
+    dispatch({
+        type: SET_APP_LISTING_PAGE,
+        value: page
+    });
 };
 
 export const fetchDetail = (appId) => async (dispatch, getState) => {
@@ -83,46 +108,5 @@ export const fetchDetail = (appId) => async (dispatch, getState) => {
                 ? lookUpApp.description
                 : ""
         }
-    });
-};
-
-export const setPage = (page) => async (dispatch, getState) => {
-    dispatch({
-        type: SET_APP_LISTING_PAGE,
-        value: page
-    });
-};
-
-export const filterFreeApp = (keyword) => async (dispatch, getState) => {
-
-    const checkKeyword = (app) => {
-        const substring = keyword;
-
-        if (app.name.toLowerCase().includes(substring.toLowerCase())) {
-            return true;
-        }
-        app.genres.map(category => {
-            if (category.name.toLowerCase().includes(substring.toLowerCase())) {
-                return true;
-            };
-        })
-        if (app.artistName.toLowerCase().includes(substring.toLowerCase())) {
-            return true;
-        }
-        if (app.description) {
-            if (app.description.toLowerCase().includes(substring.toLowerCase())) {
-                return true;
-            }
-        }
-
-        return false;
-    }
-
-    const allApps = getState().topFree.apps;
-    const filteredApps = keyword.length === 0 ? allApps : allApps.filter(checkKeyword);
-
-    dispatch({
-        type: APP_LISTING_FILTER_APP,
-        value: filteredApps
     });
 };

@@ -25,6 +25,7 @@
 
     .list-item {
         align-items: center;
+        animation: roll-in 0.5s;
         border-bottom: 1px solid $grey;
         display: flex;
         padding: 12px 0;
@@ -115,6 +116,14 @@
     }
 }
 
+.load-more {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .skeleton {
     display: inline-block;
     height: 100%;
@@ -139,5 +148,18 @@
     &::before {
         content: "\00a0";
         box-sizing: border-box;
+    }
+}
+
+@keyframes roll-in {
+    from {
+        position: relative;
+        left: 30%;
+        opacity: 0.1;
+    }
+    to {
+        position: relative;
+        left: 0%;
+        opacity: 1;
     }
 }

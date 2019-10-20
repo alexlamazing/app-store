@@ -5,23 +5,26 @@ import PropTypes from "prop-types";
 // components
 import ListItem from "./list-item";
 import ListItemSkeleton from "./list-item-skeleton";
+import { ReactComponent as Spinner } from "../../static/spinner.svg";
 
 // actions
-import { fetchFreeApp, filterFreeApp } from "./actions";
+import { fetchFreeApp, loadMore } from "./actions";
 
 // styles
 import "./app-list.scss";
 
+const NUM_OF_APPS_PER_PAGE = 10;
+
 function AppList(props) {
     const {
         apps,
-        appsFiltered,
         error,
         isFetching,
         isLoadingMore,
         keyword,
         fetchFreeApp,
-        filterFreeApp
+        page,
+        loadMore
     } = props;
 
     React.useEffect(() => {
@@ -29,31 +32,57 @@ function AppList(props) {
     }, []);
 
     React.useEffect(() => {
-        filterFreeApp(keyword);
-    }, [keyword]);
-
-    React.useEffect(() => {
         window.addEventListener("scroll", handleScroll);
         return () => {
             window.removeEventListener("scroll", handleScroll);
         };
-    }, []);
+    }, [page, isLoadingMore, loadMore]);
+    
+    // check if the app contains the keyword
+    const containKeyword = (app) => {
+        const substring = keyword.toLowerCase();
 
-    const handleScroll = (event) => {
+        if (app.name.toLowerCase().includes(substring)) {
+            return true;
+        }
+        app.genres.map(category => {
+            if (category.name.toLowerCase().includes(substring)) {
+                return true;
+            };
+        })
+        if (app.artistName.toLowerCase().includes(substring)) {
+            return true;
+        }
+        if (app.description) {
+            if (app.description.toLowerCase().includes(substring)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    const filteredApps = React.useMemo(() => {
+        return keyword.length === 0 ? apps : apps.filter(containKeyword);
+    }, [keyword, apps.length]);
+
+    const filteredAppsTotal = React.useMemo(() => filteredApps.length, [filteredApps.length]);
+    const filteredAppsPages = React.useMemo(() => Math.ceil(filteredAppsTotal / NUM_OF_APPS_PER_PAGE), [filteredAppsTotal]);
+
+    const displayApps = React.useMemo(() => filteredApps.slice(0, page * NUM_OF_APPS_PER_PAGE), [page, filteredApps]);
+
+    const handleScroll = React.useCallback((event) => {
         const body = document.body,
               html = document.documentElement;
     
         const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
 
-        if (isLoadingMore) { return; }
+        if (isLoadingMore || page === filteredAppsPages) { return; }
 
-        if (window.innerHeight + document.documentElement.scrollTop >= height - 300) {
-            // if (onLoadMore) {
-            //     onLoadMore();
-            // }
-            console.log(`load more`);
+        if (window.innerHeight + document.documentElement.scrollTop >= height - 0) {
+            loadMore(page + 1);
         }
-    }
+    }, [page, isLoadingMore, loadMore]);
 
     return (
         <div className="app-list">
@@ -79,7 +108,7 @@ function AppList(props) {
                             </div>
                         ) : (
                             keyword.length > 0 &&
-                            appsFiltered.length === 0 &&
+                            filteredApps.length === 0 &&
                             <div className="message">
                                 沒有相關結果
                             </div>
@@ -88,11 +117,16 @@ function AppList(props) {
                 }
                 <ul>
                     {
-                        keyword.length === 0
-                        ? apps && apps.map((app, index) => <ListItem key={index} index={index + 1} app={app} />)
-                        : appsFiltered && appsFiltered.map((app, index) => <ListItem key={index} index={index + 1} app={app} />)
+                        displayApps.map((app, index) => <ListItem key={index} index={index + 1} app={app} />)
                     }
                 </ul>
+                {
+                    isLoadingMore && (
+                        <div className="load-more">
+                            <Spinner />
+                        </div>
+                    )
+                }
             </div>
         </div>
     );
@@ -100,21 +134,20 @@ function AppList(props) {
 
 AppList.propTypes = {
     apps: PropTypes.array,
-    appsFiltered: PropTypes.array,
     error: PropTypes.string,
-    fetchFreeApp: PropTypes.func,
     isFetching: PropTypes.bool,
     isLoadingMore: PropTypes.bool,
-    keyword: PropTypes.string
+    keyword: PropTypes.string,
+    loadMore: PropTypes.func
 }
 
 const mapStateToProps = state => {
     const { keyword } = state;
-    const { apps, appsFiltered, error, isFetching, isLoadingMore } = state.topFree;
-    return { apps, appsFiltered, error, isFetching, isLoadingMore, keyword }
+    const { apps, error, isFetching, isLoadingMore, page } = state.topFree;
+    return { apps, error, isFetching, isLoadingMore, keyword, page }
 }
 
 export default connect(mapStateToProps, {
     fetchFreeApp,
-    filterFreeApp
+    loadMore
 })(AppList);

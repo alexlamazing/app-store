@@ -10,8 +10,15 @@ import {
     SET_APP_LISTING_PAGE,
     UPDATE_APP_LISTING,
     UPDATE_APP_LISTING_FILTERED,
-    APP_LISTING_ADD_DETAILS
+    APP_LISTING_ADD_DETAILS,
+    APP_LISTING_LOAD_MORE_START,
+    APP_LISTING_LOAD_MORE_SUCCESS
 } from "./action-types";
+
+import {
+    SET_KEYWORD,
+    CLEAR_KEYWORD
+} from "../SearchBar/action-types";
 
 function apps(state = [], action) {
     switch (action.type) {
@@ -41,25 +48,24 @@ function isFetching(state = false, action) {
     }
 }
 
-function page(state = 1, action) {
+function isLoadingMore(state = false, action) {
     switch (action.type) {
-        case SET_APP_LISTING_PAGE:
-            return action.value;
+        case APP_LISTING_LOAD_MORE_START:
+            return true;
+        case APP_LISTING_LOAD_MORE_SUCCESS:
+            return false;
         default:
             return state;
     }
 }
 
-function appsFiltered(state = [], action) {
+function page(state = 1, action) {
     switch (action.type) {
-        case APP_LISTING_FILTER_APP:
+        case SET_APP_LISTING_PAGE:
             return action.value;
-        case UPDATE_APP_LISTING_FILTERED:
-            return state.map(app =>
-                app.id === action.value.id
-                    ? { ...app, ...action.value }
-                    : app
-            );
+        case SET_KEYWORD:
+        case CLEAR_KEYWORD:
+            return 1;
         default:
             return state;
     }
@@ -74,16 +80,8 @@ function error(state = "", action) {
     }
 }
 
-function isLoadingMore(state = false, action) {
-    switch (action.type) {
-        default:
-            return state;
-    }
-}
-
 export default combineReducers({
     apps,
-    appsFiltered,
     error,
     isFetching,
     isLoadingMore,

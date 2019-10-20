@@ -11,9 +11,9 @@ import "./app-recommend.scss";
 function ListItem(props) {
     const { app, fetchDetail } = props;
 
-    React.useEffect(() => {
-        fetchDetail(app.id);
-    }, [app.id]);
+    // React.useEffect(() => {
+    //     fetchDetail(app.id);
+    // }, [app.id]);
 
     return (
         <li className="list-item">

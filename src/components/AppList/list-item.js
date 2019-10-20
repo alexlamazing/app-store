@@ -14,11 +14,11 @@ import "./app-list.scss";
 function ListItem(props) {
     const { app, index, fetchDetail } = props;
 
-    React.useEffect(() => {
-        if (app.id && !app.ratingCount) {
-            fetchDetail(app.id);
-        }
-    }, [app.id]);
+    // React.useEffect(() => {
+    //     if (app.id && !app.ratingCount) {
+    //         fetchDetail(app.id);
+    //     }
+    // }, [app.id, app.ratingCount]);
 
     return (
         <li className="list-item">
@@ -28,7 +28,7 @@ function ListItem(props) {
                 <div className="detail">
                     <span className="name">{app.name || ""}</span>
                     <span className="category">{ app.genres && app.genres.length > 0 ? app.genres.map(category => category.name)[0] : ""}</span>
-                    <div className="rating">
+                    {/* <div className="rating">
                         <div className="star-rating">
                             {
                                 app.avgRating && (
@@ -37,7 +37,7 @@ function ListItem(props) {
                             }
                         </div>
                         <span className="count">{`(${app.ratingCount || "--"})`}</span>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <a href={app.url || ""} target="_blank" rel="noopener noreferrer" />
