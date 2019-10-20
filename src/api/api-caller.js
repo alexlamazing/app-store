@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const proxyUrl = "https://cors-anywhere.herokuapp.com/";
+// const proxyUrl = "https://cors-anywhere.herokuapp.com/";
+const proxyUrl = "https://bypasscors.herokuapp.com/api/?url=";
 
 const rss = axios.create({
     baseURL: proxyUrl + `https://rss.itunes.apple.com/api/v1/hk/ios-apps`,
