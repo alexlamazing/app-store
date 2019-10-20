@@ -117,7 +117,7 @@ function AppList(props) {
                 }
                 <ul>
                     {
-                        displayApps.map((app, index) => <ListItem key={index} index={index + 1} app={app} />)
+                        displayApps.map((app, index) => <ListItem key={index} app={app} />)
                     }
                 </ul>
                 {

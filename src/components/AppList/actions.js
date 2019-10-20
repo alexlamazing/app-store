@@ -23,9 +23,13 @@ export const fetchFreeApp = () => async (dispatch, getState) => {
         const res = await ApiCaller.rss.get(ApiRoute.apps.TOP_FREE);
         const { data: { feed: { results } } } = res;
 
+        const sortedResults = results.map((app, index) => {
+            return {...app, rank: index + 1};
+        });
+
         dispatch({
             type: FETCH_APP_LISTING_SUCCESS,
-            value: results
+            value: sortedResults
         })
     } catch (err) {
         dispatch({

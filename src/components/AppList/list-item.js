@@ -12,7 +12,7 @@ import { fetchDetail } from "./actions";
 import "./app-list.scss";
 
 function ListItem(props) {
-    const { app, index, fetchDetail } = props;
+    const { app, fetchDetail } = props;
 
     // React.useEffect(() => {
     //     if (app.id && !app.ratingCount) {
@@ -22,7 +22,7 @@ function ListItem(props) {
 
     return (
         <li className="list-item">
-            <div className="rank">{index || ""}</div>
+            <div className="rank">{app.rank || ""}</div>
             <div className="app">
                 <img className="icon" src={app.artworkUrl100 || ""} alt={app.name || ""} />
                 <div className="detail">
