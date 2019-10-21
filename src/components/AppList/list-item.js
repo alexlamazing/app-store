@@ -1,8 +1,8 @@
 import React from "react";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
+import LazyLoad from "react-lazyload";
 
-import withLazyLoad from "./lazy-load";
 import StarRating from "../Star/star";
 
 // actions
@@ -14,21 +14,23 @@ import "./app-list.scss";
 function ListItem(props) {
     const { app, fetchDetail } = props;
 
-    // React.useEffect(() => {
-    //     if (app.id && !app.ratingCount) {
-    //         fetchDetail(app.id);
-    //     }
-    // }, [app.id, app.ratingCount]);
+    React.useEffect(() => {
+        if (app.id && (!app.ratingCount || !app.avgRating)) {
+            fetchDetail(app.id);
+        }
+    }, [app.id, app.avgRating, app.ratingCount]);
 
     return (
         <li className="list-item">
             <div className="rank">{app.rank || ""}</div>
             <div className="app">
-                <img className="icon" src={app.artworkUrl100 || ""} alt={app.name || ""} />
+                <LazyLoad height={80} once>
+                    <img className="icon" src={app.artworkUrl100 || ""} alt={app.name || ""} />
+                </LazyLoad>
                 <div className="detail">
                     <span className="name">{app.name || ""}</span>
                     <span className="category">{ app.genres && app.genres.length > 0 ? app.genres.map(category => category.name)[0] : ""}</span>
-                    {/* <div className="rating">
+                    <div className="rating">
                         <div className="star-rating">
                             {
                                 app.avgRating && (
@@ -37,7 +39,7 @@ function ListItem(props) {
                             }
                         </div>
                         <span className="count">{`(${app.ratingCount || "--"})`}</span>
-                    </div> */}
+                    </div>
                 </div>
             </div>
             <a href={app.url || ""} target="_blank" rel="noopener noreferrer" />
@@ -51,4 +53,8 @@ const mapDispatchToProps = dispatch => {
     }
 }
 
-export default connect(null, mapDispatchToProps)(withLazyLoad(ListItem));
+export default connect(null, mapDispatchToProps)(React.memo(ListItem, (prevProps, nextProps) => {
+    return prevProps.app.id === nextProps.app.id &&
+    prevProps.app.avgRating === nextProps.app.avgRating &&
+    prevProps.app.ratingCount === nextProps.app.ratingCount;
+}));

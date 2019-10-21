@@ -5,9 +5,7 @@ import {
     FETCH_APP_RECOMMEND_START,
     FETCH_APP_RECOMMEND_SUCCESS,
     FETCH_APP_RECOMMEND_FAILURE,
-    APP_RECOMMEND_FILTER_APP,
     UPDATE_APP_RECOMMEND,
-    UPDATE_APP_RECOMMEND_FILTERED
 } from "./action-types";
 
 function apps(state = [], action) {
@@ -15,11 +13,11 @@ function apps(state = [], action) {
         case FETCH_APP_RECOMMEND_SUCCESS:
             return [...state, ...action.value];
         case UPDATE_APP_RECOMMEND:
-            return state.map(app =>
+            return [...state.map(app =>
                 app.id === action.value.id
                     ? { ...app, ...action.value }
                     : app
-            );
+                )];
         default:
             return state;
     }
@@ -38,21 +36,6 @@ function isFetching(state = false, action) {
     }
 }
 
-function appsFiltered(state = [], action) {
-    switch (action.type) {
-        case APP_RECOMMEND_FILTER_APP:
-            return action.value;
-        case UPDATE_APP_RECOMMEND_FILTERED:
-            return state.map(app =>
-                app.id === action.value.id
-                    ? { ...app, ...action.value }
-                    : app
-            );
-        default:
-            return state;
-    }
-}
-
 function error(state = "", action) {
     switch (action.type) {
         case FETCH_APP_RECOMMEND_FAILURE:
@@ -64,7 +47,6 @@ function error(state = "", action) {
 
 export default combineReducers({
     apps,
-    appsFiltered,
     error,
     isFetching
 });

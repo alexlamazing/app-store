@@ -27,6 +27,7 @@ function AppList(props) {
         loadMore
     } = props;
 
+    // fetch data when the AppList component did mount
     React.useEffect(() => {
         fetchFreeApp();
     }, []);
@@ -55,13 +56,14 @@ function AppList(props) {
         return false;
     }
 
+    // do filter apps when keyword is updated
     const filteredApps = React.useMemo(() => {
         return keyword.length === 0 ? apps : apps.filter(containKeyword);
-    }, [keyword, apps.length]);
-
+    }, [keyword, apps]);
     const filteredAppsTotal = React.useMemo(() => filteredApps.length, [filteredApps.length]);
     const filteredAppsPages = React.useMemo(() => Math.ceil(filteredAppsTotal / NUM_OF_APPS_PER_PAGE), [filteredAppsTotal]);
 
+    // actual apps being displayed
     const displayApps = React.useMemo(() => filteredApps.slice(0, page * NUM_OF_APPS_PER_PAGE), [page, filteredApps]);
 
     const handleScroll = React.useCallback((event) => {
@@ -70,8 +72,10 @@ function AppList(props) {
     
         const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
 
+        // break if it's loading more OR already the last page
         if (isLoadingMore || page === filteredAppsPages) { return; }
 
+        // if scrolled to the bottom, load more
         if (window.innerHeight + document.documentElement.scrollTop >= height - 0) {
             loadMore(page + 1);
         }
@@ -142,8 +146,16 @@ AppList.propTypes = {
 }
 
 const mapStateToProps = state => {
-    const { keyword } = state;
-    const { apps, error, isFetching, isLoadingMore, page } = state.topFree;
+    const {
+        keyword,
+        topFree: {
+            apps,
+            error,
+            isFetching,
+            isLoadingMore,
+            page
+        }
+    } = state;
     return { apps, error, isFetching, isLoadingMore, keyword, page }
 }
 

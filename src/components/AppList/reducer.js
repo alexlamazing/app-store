@@ -2,17 +2,13 @@ import { combineReducers } from "redux";
 
 // types
 import {
-    APP_LISTING_FILTER_APP,
+    APP_LISTING_LOAD_MORE_START,
+    APP_LISTING_LOAD_MORE_SUCCESS,
     FETCH_APP_LISTING_START,
     FETCH_APP_LISTING_SUCCESS,
     FETCH_APP_LISTING_FAILURE,
-    SET_APP_LISTING_LOADED_PAGES,
     SET_APP_LISTING_PAGE,
     UPDATE_APP_LISTING,
-    UPDATE_APP_LISTING_FILTERED,
-    APP_LISTING_ADD_DETAILS,
-    APP_LISTING_LOAD_MORE_START,
-    APP_LISTING_LOAD_MORE_SUCCESS
 } from "./action-types";
 
 import {
@@ -25,11 +21,11 @@ function apps(state = [], action) {
         case FETCH_APP_LISTING_SUCCESS:
             return [...state, ...action.value];
         case UPDATE_APP_LISTING:
-            return state.map(app =>
+            return [...state.map(app =>
                 app.id === action.value.id
                     ? { ...app, ...action.value }
                     : app
-            );
+                )];
         default:
             return state;
     }

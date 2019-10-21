@@ -44,9 +44,9 @@ function SearchBar(props) {
         textInput.current.focus();
     }
 
-    React.useEffect(() => {
-        textInput.current.focus();
-    }, []);
+    // React.useEffect(() => {
+    //     textInput.current.focus();
+    // }, []);
 
     React.useEffect(() => {
         window.scrollTo(0, 0);
