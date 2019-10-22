@@ -11,7 +11,7 @@ const rss = axios.create({
 });
 
 const itunes = axios.create({
-    baseURL: proxyUrl + `https://itunes.apple.com/hk/lookup`,
+    baseURL: proxyUrl + `https://itunes.apple.com/hk`,
     headers: {
         Accept: "*/*"
     }
