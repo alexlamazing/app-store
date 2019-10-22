@@ -31,14 +31,22 @@ function ListItem(props) {
                     <span className="name">{app.name || ""}</span>
                     <span className="category">{ app.genres && app.genres.length > 0 ? app.genres.map(category => category.name)[0] : ""}</span>
                     <div className="rating">
-                        <div className="star-rating">
-                            {
-                                app.avgRating && (
-                                    <StarRating totalStars={5} numOfSelectedStars={Math.floor(app.avgRating)} />
-                                )
-                            }
-                        </div>
-                        <span className="count">{`(${app.ratingCount || "--"})`}</span>
+                        {
+                            app.ratingCount ? (
+                                <>
+                                <div className="star-rating">
+                                    {
+                                        app.avgRating && (
+                                            <StarRating totalStars={5} numOfSelectedStars={Math.floor(app.avgRating)} />
+                                        )
+                                    }
+                                </div>
+                                <span className="count">{`(${app.ratingCount || "--"})`}</span>
+                                </>
+                            ) : (
+                                <div className="no-rating">暫無評分</div>
+                            )
+                        }
                     </div>
                 </div>
             </div>
